@@ -1,0 +1,22 @@
+:root {
+  bg-dark-blue: #0072ff;
+}
+
+body {
+  margin: 0;
+}
+
+.top-container-red {
+  background-color: var(bg-dark-blue);
+  ;
+  height: 3000px;
+  margin: 0;
+  width: auto;
+}
+
+.top-container-blue {
+  background-color: blue;
+  height: 3000px;
+  margin: 0;
+  width: auto;
+}
