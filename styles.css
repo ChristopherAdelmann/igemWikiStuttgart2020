@@ -1,3 +1,63 @@
-body {
-  background-color: red;
+/*********** GENERAL ***********/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comfortaa', serif;
 }
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 2;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.small-p {
+  font-size: 0.8
+}
+
+.large-p {
+  font-size: 1.6rem;
+}
+
+/*********** txt-img ***********/
+.regular-row {
+  background-color: #030D17;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  margin: 3%;
+  padding: 5px;
+  text-align: left;
+}
+
+.img-grid-item {
+  display: block;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 3%;
+}
+
+.txt-grid-item {
+  border: solid white;
+  border-radius: 15px;
+  height: 100%;
+  padding: 3%;
+  width: 100%;
+}
+
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
+/*********** BLANK ***********/
