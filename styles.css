@@ -1,5 +1,18 @@
 /*********** GENERAL ***********/
+:root {
+  --color-light: #EDF5FD;
+  --color-dark: #030D17;
+  --color-medium-blue: #308CE1;
+  --color-medium-green: #4FD6A2;
+  --color-medium-red: #A35563;
+  --color-light-blue: #CCE2F8;
+  --color-light-green: #D1EBD5;
+  --color-light-red: #DDBFC5;
+  --color-highlight: #D8ED62;
+}
+
 h1, h2, h3, h4, h5, h6 {
+  color: var(--color-dark);
   font-family: 'Comfortaa', serif;
 }
 
@@ -9,17 +22,58 @@ h1 {
   line-height: 2;
 }
 
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
 p {
+  color: var(--color-dark);
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
 }
 
+.xsmall-p {
+  font-size: 0.4rem;
+}
+
 .small-p {
-  font-size: 0.8
+  font-size: 0.8rem;
+}
+
+.xlarge-p {
+  font-size: 1.6rem;
 }
 
 .large-p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+}
+
+.underline-highlight {
+  text-underline-offset: 20px;
+  text-decoration: underline var(--color-highlight);
+  text-underline-position: under;
+}
+
+.underline-light {
+  text-underline-offset: 20px;
+  text-decoration: underline var(--color-light);
+  text-underline-position: under;
+}
+
+.underline-dark {
+  text-underline-offset: 20px;
+  text-decoration: underline var(--color-dark);
+  text-underline-position: under;
+}
+
+.background-light {
+  background-color: var(--color-light);
+}
+
+.background-dark {
+  background-color: var(--color-dark);
 }
 
 /*********** txt-img ***********/
@@ -49,9 +103,45 @@ p {
   width: 100%;
 }
 
-/*********** BLANK ***********/
-/*********** BLANK ***********/
-/*********** BLANK ***********/
+/*********** navbar ***********/
+.testContainer {
+  height: 5000px;
+  width: auto;
+}
+
+.navbar {
+  background-color: var(--color-dark);
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+#navbar-wrapper {
+  padding: 3% 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.minimized:hover {
+  opacity: 1 !important;
+}
+
+/*********** txt-highlight ***********/
+.highlight-container {
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  color: var(--color-light);
+  margin: 10% 0;
+  padding: 5%;
+  text-align: right;
+}
+
+/*********** header-txt ***********/
+.header-txt-container {
+  padding: 5%;
+}
+
 /*********** BLANK ***********/
 /*********** BLANK ***********/
 /*********** BLANK ***********/
