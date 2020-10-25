@@ -43,6 +43,7 @@
         <div id="structure" class="col-md-10 section-content">
           <div class="container-flex header-txt-container">
             <h2>Model structure</h2>
+            <hr />
               <h3>Michaelis-Menten core</h3>
                 <p>
                   Our model is based on the Michaelis-Menten kinetic law. The required parameters <em>v<sub>max</sub> , K<sub>m</sub></em>, and <em>k<sub>cat</sub></em> were determined experimentally and obtained from the literature for the substrate ABTS.<sup>1</sup> This allows for adjustment of the substrate concentration and the amount of laccase used for degradation. The transition from a batch approach to a continuous system was reached by the implementation of an influx and an efflux. The influx contains the substrate (water pollutants) with a given concentration, and the efflux contains both undegraded and degraded substrate. Flow rates (<em>F<sub>in</sub></em> and <em>F<sub>out</sub></em>) can be easily adjusted towards the desired application. Thereby, the amount of laccase degraded substrate and the flow-through undegraded substrate can be determined.
@@ -73,6 +74,7 @@
         <div id="parameter-estimation" class="col-md-10 section-content">
           <div class="container-flex header-txt-container">
             <h2>Parameter estimation</h2>
+            <hr />
               <h3>Laccase degradation rate</h3>
                 <p>
                   To determine the exact decay rate, we set up a long-term stability ABTS-assay for the laccase from T. <em>versicolor</em>. We stored the laccase at 25°C in Citrate-Na<sub>2</sub>HPO<sub>4</sub> buffer at pH 5. The activity was measured over 10 days in triplicates to identify a degradation term that can be used in our model. The data was fit exponentially and used in our model to decrease the amount of active laccase with the time. The exponent 2.231∙10<sup>-6</sup> was used as a degradation rate constant for the laccase.
@@ -87,9 +89,11 @@
                 <p>
                   <img class="img-std" src="https://2020.igem.org/wiki/images/6/63/T--Stuttgart--model_6.png" alt="Temperature fit">
                 </p>
+                <hr />
                 <p>
                   <img class="img-std" src="https://2020.igem.org/wiki/images/3/39/T--Stuttgart--model_7.png" alt="pH fit">
                 </p>
+                <hr />
                 <p>
                   <img class="img-std" src="https://2020.igem.org/wiki/images/0/0c/T--Stuttgart--model_8.png" alt="Salt concentration fit">
                 </p>
@@ -107,6 +111,7 @@
               <p>
                 In summary, the model allows for adjustment of:
               </p>
+              <hr />
               <li>
                 Concentration of Laccase in the foam
               </li>
@@ -125,6 +130,7 @@
               <li>
                 Flow of wastewater through the system
               </li>
+              <hr />
               <p>
 
               </p>
