@@ -48,21 +48,21 @@
                   Our model is based on the Michaelis-Menten kinetic law. The required parameters <em>v<sub>max</sub> , K<sub>m</sub></em>, and <em>k<sub>cat</sub></em> were determined experimentally and obtained from the literature for the substrate ABTS.<sup>1</sup> This allows for adjustment of the substrate concentration and the amount of laccase used for degradation. The transition from a batch approach to a continuous system was reached by the implementation of an influx and an efflux. The influx contains the substrate (water pollutants) with a given concentration, and the efflux contains both undegraded and degraded substrate. Flow rates (<em>F<sub>in</sub></em> and <em>F<sub>out</sub></em>) can be easily adjusted towards the desired application. Thereby, the amount of laccase degraded substrate and the flow-through undegraded substrate can be determined.
                 </p>
                 <p>
-                  --- Bild1 ---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/7/75/T--Stuttgart--model_1.png/800px-T--Stuttgart--model_1.png" alt="Picture 1 of the simple michaelis-menten model">
                 </p>
               <h3>Consideration of MCF pores</h3>
                 <p>
                   Since our laccases are immobilized inside a mesocellular silica foam (MCF), the diffusion and flow conditions are complex and dependent on the size of the foam particles and their pore diameters. To simulate the flow conditions and concentration gradients in the foam, we split up the reaction volume into 20 successive compartments with individual substrate and product concentrations. We found 20 to be a limit value of compartments, over which more compartments would make no more difference in the kinetic behavior of the model. The laccase is equally distributed over all compartments. We decided to give the foam a total fixed volume of 1 liter and therefore 0.05 l per compartment.
                 </p>
                 <p>
-                  --- Bild3 ---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/8/83/T--Stuttgart--model_3.png/607px-T--Stuttgart--model_3.png" alt="Picture 2 of the simple michaelis-menten model with compartments">
                 </p>
               <h3>Protein decay</h3>
                 <p>
                   The immobilization allows for the recovery of the enzymes together with the MCF and prevents the washout by wastewater. Therefore, our laccases can be used over an extended time span. The degradation of laccases over time is discribed by an exponential decay.
                 </p>
                 <p>
-                  --- Bild5 ---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/d/da/T--Stuttgart--model_5.png" alt="Picture of laccase decay reaction.">
                 </p>
               <h3>Environmental conditions</h3>
                 <p>
@@ -78,26 +78,26 @@
                   To determine the exact decay rate, we set up a long-term stability ABTS-assay for the laccase from T. <em>versicolor</em>. We stored the laccase at 25°C in Citrate-Na<sub>2</sub>HPO<sub>4</sub> buffer at pH 5. The activity was measured over 10 days in triplicates to identify a degradation term that can be used in our model. The data was fit exponentially and used in our model to decrease the amount of active laccase with the time. The exponent 2.231∙10<sup>-6</sup> was used as a degradation rate constant for the laccase.
                 </p>
                 <p>
-                  ---Bild4---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/2/2b/T--Stuttgart--model_4.png" alt="Exponential fit of laccase decay">
                 </p>
               <h3>Environmental conditions</h3>
                 <p>
                   We used data from the literature that already represent the dependency of laccase activity on temperature, ion concentration, and pH value.<sup>2,3</sup> With MATLAB, we fitted the experimental data from the literature to the best possible function with PolyFit of degree 3 for temperature and pH-value. For the ion concentration, we used exponential fitting.
                 </p>
                 <p>
-                  ---Bild6---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/6/63/T--Stuttgart--model_6.png" alt="Temperature fit">
                 </p>
                 <p>
-                  ---Bild7---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/3/39/T--Stuttgart--model_7.png" alt="pH fit">
                 </p>
                 <p>
-                  ---Bild8---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/0/0c/T--Stuttgart--model_8.png" alt="Salt concentration fit">
                 </p>
                 <p>
                   These functions represent the relative activity between 0 and 1 dependent on the respective condition and scale the activity of the laccase in our model as factors. These factors are calculated with the set parameters used in the above-determined equations. The single environmental factors are combined multiplicatively into an efficiency factor, which scales directly the reaction rate itself.
                 </p>
                 <p>
-                  ---Bild9---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/a/a0/T--Stuttgart--model_9.png" alt="Environmental factors">
                 </p>
           </div>
         </div>
@@ -136,26 +136,26 @@
                   Exemplary, the model is applied to the wastewater treatment plant in Stuttgart Plieningen. The first step is to collect environmental conditions for the specific system. The wastewater treatment plant in Stuttgart Plieningen has an average dry-weather influx of 175 l/s, an average wastewater temperature of 17 °C, an average pH-value of 6, around 20 mM salt concentration, and a substrate concentration of Diclofenac of 1.33∙10<sup>-6</sup> M.<sup>4</sup> With this input values and almost no laccase (3∙10<sup>-8</sup> M), the undegraded substrate (red) stays at the initial substrate concentration over the whole simulation time while there is no degraded substrate (green).
                 </p>
                 <p>
-                  ---Bild10---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/2/2d/T--Stuttgart--model_10.png/800px-T--Stuttgart--model_10.png" alt="Almost no reaction">
                 </p>
                 <p>
                   To achieve substrate degradation, the amount of laccase must be increased. At a laccase concentration of 3∙10<sup>-4</sup> M there is an initial substrate degradation of 60 %, that is decreasing to 20 % after 8 days.
                 </p>
                 <p>
-                  ---Bild11---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/6/60/T--Stuttgart--model_11.png/800px-T--Stuttgart--model_11.png" alt="60 % Degradation">
                 </p>
                 <p>
                   With a laccase concentration of 3∙10<sup>-3</sup> M there is full substrate degradation for the first 3 days and still 85 % substrate degradation after 8 days.
                 </p>
                 <p>
-                  ---Bild12---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/d/d8/T--Stuttgart--model_12.png/800px-T--Stuttgart--model_12.png" alt="100 % Degradation">
                 </p>
                 <p>
                   In addition to laccase concentration, also the quantity of foam can be increased to improve substrate degradation. Since our model in the foam has a fixed volume of 1 l, this effect is introduced into the model by changing the absolute flux. Dividing the flux by two has the same effect as doubling the amount of foam and is easier adjustable in the model.
                   With a low laccase concentration of 3∙10<sup>-8</sup> M, 1000 l foam volume would be needed to achieve a substrate degradation comparable to a laccase concentration of 3∙10<sup>-4</sup> M in 1 l foam.
                 </p>
                 <p>
-                  ---Bild13---
+                  <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/2/27/T--Stuttgart--model_13.png/800px-T--Stuttgart--model_13.png" alt="60 & Degradation">
                 </p>
           </div>
         </div>
