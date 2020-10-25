@@ -16,6 +16,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Comfortaa', serif;
 }
 
+ul {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: 600;
