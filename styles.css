@@ -130,11 +130,16 @@ p {
 }
 
 .img-std {
-  max-height: 100%;;
+  max-height: 100%;
+  ;
   max-width: 100%;
 }
 
 /*********** navbar ***********/
+.navbar-img {
+  width: 100px;
+}
+
 .testContainer {
   height: 5000px;
   width: auto;
@@ -193,9 +198,11 @@ p {
   font-family: 'Comfortaa', serif;
   height: 20px;
   margin-bottom: 1rem;
+  overflow: visible;
   padding: 0;
   text-align: center;
   text-indent: 25px;
+  white-space: nowrap;
   width: 20px;
 }
 
