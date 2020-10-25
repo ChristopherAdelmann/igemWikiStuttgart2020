@@ -86,6 +86,10 @@ p {
   height: 5000px;
 }
 
+.txt-light {
+  color: var(--color-light)
+}
+
 /*********** txt-img ***********/
 .regular-row {
   background-color: #030D17;
@@ -141,7 +145,7 @@ p {
 /*********** txt-highlight ***********/
 .highlight-container {
   box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
-  color: var(--color-light);
+  color: white;
   margin: 10% 0;
   padding: 5%;
   text-align: right;
