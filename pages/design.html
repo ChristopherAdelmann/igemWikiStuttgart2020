@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title></title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <!-- <scriptsrc="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
+  <script src="../bootstrap/jquery.slim.min.js"></script>
+  <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js" integrity="sha512-oHBLR38hkpOtf4dW75gdfO7VhEKg2fsitvHZYHZjObc4BPKou2PGenyxA5ZJ8CCqWytBx5wpiSqwVEBy84b7tw==" crossorigin="anonymous"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#nav" data-offset="200" class="content-wrapper background-light">
+
+  <div>
+    <!-- HTML Code Below Here -->
+
+    <section class="container-fluid background-light">
+      <div class="row justify-content-end">
+        <!-- Content Below Here -->
+        <div id="abstract" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <div class="container-flex header-txt-container">
+              <h1 class="underline-dark">Design</h1>
+              <p>
+                To tackle the problem of water pollution from drugs, such as antibiotics or estrogen derivatives and other non-medical pollutants, we designed Lac-Man, the effective water filter to counter drug residues in wastewater. On this page, we want to provide you the theoretical groundwork that we did to design our projects.
+              </p>
+              <p>
+                Our idea is to produce a biological water filter that can be used to neutralize pollutants and drug residues in wastewater. We plan on using enzymes capable of degrading micropollutants and to covalently immobilize them into a silica foam. By immobilization we hope to significantly increase the pH- and thermostability of these enzymes, allowing them to be active in conditions found in wastewater plants and to facilitate the reusability and avoid the loss of enzyme.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="substrates" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>Substrates</h2>
+            <p>
+              According to the Umweltbundesamt of Germany diclofenac and carbamazepine are among the most found pharmaceuticals in surface waters. Especially diclofenac, a non-steroidal anti-inflammatory drug typically used for acute and chronic joint inflammation, rheumatism and sports injuries exceeds the recommended guide values in the majority of measuring stations. We therefore chose diclofenac and carbamazepine as our two main substrates for degradation, as well as β-estradiol.
+            </p>
+            <hr />
+            <p>
+              Diclofenac
+              <img class="img-std" src="https://2020.igem.org/wiki/images/4/47/T--Stuttgart--Design_Diclofenac.png" alt="Diclofenac Structure">
+            </p>
+            <hr />
+            <p>
+              Carbamazepine
+              <img class="img-std" src="https://2020.igem.org/wiki/images/2/2d/T--Stuttgart--Design_Carbamazepin.png" alt="Carbamazepin Structure">
+            </p>
+            <hr />
+            <p>
+              Estradiol
+              <img class="img-std" src="https://2020.igem.org/wiki/images/3/3f/T--Stuttgart--Design_Estradiol.png" alt="Estradiol Structure">
+            </p>
+            <hr />
+            <p>
+              We primarily wanted to investigate the degradation of β-estradiol due to it’s known effects on the environment. But we changed our focus to diclofenac after an early conversation with Dr. Kuch, a professor at the Institute for Sanitary Engineering, Water Quality and Waste Management at the university of stuttgart (see Interview Dr. Kuch), during which he advised us to change our focus from β-estradiol to diclofenac, since the detection through UV-HPLC as well as the needed processing of our samples would be much easier and more time efficient. As we had to struggle with the current corona situation and the time we could spend in the lab was therefore very limited, we decided to follow the advice of Dr. Kuch.
+            </p>
+          </div>
+        </div>
+        <div id="immobilization" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>Immobilization of Laccases</h2>
+            <hr />
+            <h3>Immobilization</h3>
+            <p>
+              When designing Lac-Man we looked into different ways to immobilize our enzymes as well as increasing their stability under conditions found in wastewater, especially in wastewater plants, where we plan on using our bio filter. Different matrices like magnetic beads, synthetic resins, biopolymers or inorganic solids such as (mesoporous) silicas or zeolites have already been used to immobilize different enzymes. In consideration of the usage of Lac-Man in wastewater plants we had to find a matrix that offered high chemical and biological stability, mechanical resistance as well as high biocompatibility so it could be used multiple times before it needs to be reloaded with enzyme. A mesoporous silica matrix was therefore chosen because it meets all requirements mentioned as well as high surface areas allowing high yields of immobilized enzymes.
+            </p>
+            <p>
+              To further increase the yield of immobilized enzymes we use glutaraldehyde as a cross-linking agent to change the hydroxyl group of the silica to an aldehyde. Since these aldehyde groups primarily interact with lysine residues we modified both our laccases with a poly-Lys Tag to improve immobilisation and reduced sterical hindrance of our laccases.
+            </p>
+            <h3>Laccases as enzymes of choice</h3>
+            <p>
+              When deciding on the enzymes we wanted to use for our bio filter, we quickly decided on laccases as the enzymes of choice, a class of polyphenol oxidases that catalyse the oxidation of various aromatic compounds such as phenols (−OH) and anilines (−NH2). Several publications describe the biotransformation of a variety of micropollutants by laccases, showing their high potential for use in wastewater treatment.
+            </p>
+            <p>
+              One of the most studied laccases is the laccase from Trametes <em>versicolor</em> (LTv, http://parts.igem.org/Part:BBa_K2835003). It has been shown that LTv is able to convert a variety of pharmaceuticals and biocides like endocrine compounds, anti-inflammatory drugs and antibiotics (Margot et al. 2013) making it the perfect candidate for our filter system. We used the laccase sequence based on the already existing BioBrick of Stockholm 2018 (BBa_K2835003), which was modified with a N-terminal 6xHis-Tag for purification and the removal of the native signal sequence. LTv is a fungal protein that needs to be expressed in an eukaryotic system in order to be functional. The expression system we used (P. <em>pastoris</em>) needed about one and a half weeks for the production of purified laccase.
+            </p>
+            <p>
+              We therefore wanted to see if there were any bacterial laccases that showed great potential for the degradation of our substrates of choice enabling faster recombinant expression in E. <em>coli</em>. The laccase originating from Streptomyces <em>cyaneus</em> (NCBI GenBank: LT795002.1) was chosen since it showed relatively high activity and stability for ABTS as well as a few micropollutants.
+            </p>
+          </div>
+        </div>
+        <div id="expression" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>Expression system</h2>
+            <p>
+              Due to the ongoing Covid-19 pandemic it was not possible to receive BioBricks from iGEM this year. For this reason, we have had our laccase sequences and primers synthesized by IDT who, for the seventh year in a row, kindly offer all iGEM teams up to 20 kbps of free dna.
+            </p>
+            <h3>Expression of Laccase T.<em> versicolor</em></h3>
+            <p>
+              Since LTv needs to be post-translationally modified to be active containing  two disulfide bonds and N-glycosylations we needed a suitable eukaryotic expression system. We therefore decided on P. <em>pastoris</em> X-33 as our expression organism. P. <em>pastoris</em> allows high protein yields and the secretion of endogenous proteins when using a suitable expression vector.
+            </p>
+            <p>
+              pPICZa A is a vector from Invitrogen used for the expression in P. <em>pastoris</em> X-33. The plasmid contains a methanol-inducible AOX1 promoter as well as the a-factor secretion signal of S. <em>cerevisiae</em> for secretion of the recombinant expressed protein.
+            </p>
+            <p>
+              <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/6/6d/T--Stuttgart--Design_pPICZa.png/601px-T--Stuttgart--Design_pPICZa.png" alt="pPICZa vector">
+            </p>
+            <h3>Expression of Laccase S.<em> cyaneus</em></h3>
+            <p>
+              For expression of LSc we used E. <em>coli</em> BL21(DE3), an E. <em>coli</em> strain optimized for recombinant protein expression. By using pET-based expression vectors, high protein concentrations can be achieved with this strain.  BL21(DE3) also contains neither the lon protease nor the outer membrane protease OmpT which greatly reduces the degradation of heterologously expressed proteins.
+            </p>
+            <p>
+              We firstly used pET28a (Figure 3a) as our expression vector since it was available at our lab and offered high expression as well as easy selection with kanamycin. We used this vector for cloning with the NEBuilder® HiFi DNA Assembly Cloning Kit. We also used pET22b(+) (Figure 3b) as an alternative since it only contains one 6xHis-Tag which saved us some headaches during cloning.
+            </p>
+            <p>
+              <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/2/2a/T--Stuttgart--Design_ppET22b.png/634px-T--Stuttgart--Design_ppET22b.png" alt="pET22b vector">
+            </p>
+            <hr />
+            <p>
+              <img class="img-std" src="https://2020.igem.org/wiki/images/thumb/6/64/T--Stuttgart--Design_ppET28a.png/645px-T--Stuttgart--Design_ppET28a.png" alt="pET28a vector">
+            </p>
+            <p>
+              For cloning we decided to use the NEBuilder<sup>®</sup> HiFi DNA Assembly Cloning Kit kindly provided by NEB. To use this cloning method we designed several primers that generated an overhang on both termini of the laccase sequence corresponding to the sequence of the respective vector backbone when amplified through PCR.
+            </p>
+            <p>
+              We also added restriction sites of different restriction enzymes (highlighted in each vector) to both laccase sequences in case the cloning via NEBuilder<sup>®</sup> HiFi DNA Assembly Cloning Kit would not work.
+            </p>
+            <h3>Purification</h3>
+            <p>
+              Both, LTv and LSc contained a 6xHis-Tag allowing easy purification through Ni-NTA. Ni-NTA Agarose is an affinity chromatography matrix for purifying recombinant proteins carrying a His tag. Histidine residues in the His tag bind to the immobilized nickel ions with high specificity and affinity.
+            </p>
+            <p>
+              <img class="img-std" src="https://2020.igem.org/wiki/images/8/89/T--Stuttgart--Design_HisTag.png" alt="His-Tag">
+            </p>
+          </div>
+        </div>
+        <div id="literature" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>Literature</h2>
+            <ul>
+              <li>
+                Bilal M, Iqbal HMN. Persistence and impact of steroidal estrogens on the environment and their laccase-assisted removal. Sci Total Environ. 2019 Nov 10;690:447-459. doi: 10.1016/j.scitotenv.2019.07.025
+              </li>
+              <li>
+                Hata T, Shintate H, Kawai S, Okamura H, Nishida T. Elimination of carbamazepine by repeated treatment with laccase in the presence of 1-hydroxybenzotriazole. J Hazard Mater. 2010 Sep 15;181(1-3):1175-8. doi: 10.1016/j.jhazmat.2010.05.103. Epub 2010 May 27.
+              </li>
+              <li>
+                Margot J, Bennati-Granier C, Maillard J, Blánquez P, Barry DA, Holliger C. Bacterial versus fungal laccase: potential for micropollutant degradation. AMB Express. 2013 Oct 24;3(1):63. doi: 10.1186/2191-0855-3-63
+              </li>
+              <li>
+                Naghdi M, Taheran M, Brar SK, Kermanshahi-Pour A, Verma M, Surampalli RY. Immobilized laccase on oxygen functionalized nanobiochars through mineral acids treatment for removal of carbamazepine. Sci Total Environ. 2017 Apr 15;584-585:393-401. doi: 10.1016/j.scitotenv.2017.01.021
+              </li>
+              <li>
+                Rekuć A, Bryjak J, Szymańska K, Jarzębski A B., Laccase immobilization on mesostructured cellular foams affords preparations with ultra high activity, Process Biochemistry, Volume 44, Issue 2, 2009, Pages 191-198, ISSN 1359-5113, https://doi.org/10.1016/j.procbio.2008.10.007.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav id="nav" class="d-none d-md-block position-fixed sidebar">
+      <!-- Navigation Items Below Here -->
+      <a href="#abstract" class="list-group-item sidebar-item">Abstract</a>
+      <a href="#substrates" class="list-group-item sidebar-item">Substrates</a>
+      <a href="immobilization" class="list-group-item sidebar-item">Immobilization</a>
+      <a href="#expression" class="list-group-item sidebar-item">Expression</a>
+      <a href="#literature" class="list-group-item sidebar-item">Literature</a>
+    </nav>
+  </div>
+
+  <!-- JS Scripts Below Here -->
+
+</body>
+
+</html>
