@@ -2,7 +2,10 @@
 iGEM Wiki Stuttgart 2020
 
 <!-- Bilder -->
+https://2020.igem.org/Special:Upload
 Bild Benennung:
-T--OFFICIAL team name--File_name
+T--Stuttgart--File_name
 Bild link:
-https://2020.igem.org/File:T--OFFICIAL team name--File_name
+https://2020.igem.org/File:T--Stuttgart--File_name
+
+File name: page_imageName
