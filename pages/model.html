@@ -48,14 +48,14 @@
                   Our model is based on the Michaelis-Menten kinetic law. The required parameters <em>v<sub>max</sub> , K<sub>m</sub></em>, and <em>k<sub>cat</sub></em> were determined experimentally and obtained from the literature for the substrate ABTS.<sup>1</sup> This allows for adjustment of the substrate concentration and the amount of laccase used for degradation. The transition from a batch approach to a continuous system was reached by the implementation of an influx and an efflux. The influx contains the substrate (water pollutants) with a given concentration, and the efflux contains both undegraded and degraded substrate. Flow rates (<em>F<sub>in</sub></em> and <em>F<sub>out</sub></em>) can be easily adjusted towards the desired application. Thereby, the amount of laccase degraded substrate and the flow-through undegraded substrate can be determined.
                 </p>
                 <p>
-                  --- Bild1 ---
+                  <img src="https://2020.igem.org/wiki/images/thumb/7/75/T--Stuttgart--model_1.png/800px-T--Stuttgart--model_1.png" alt="Picture 1 of the simple michaelis-menten model">
                 </p>
               <h3>Consideration of MCF pores</h3>
                 <p>
                   Since our laccases are immobilized inside a mesocellular silica foam (MCF), the diffusion and flow conditions are complex and dependent on the size of the foam particles and their pore diameters. To simulate the flow conditions and concentration gradients in the foam, we split up the reaction volume into 20 successive compartments with individual substrate and product concentrations. We found 20 to be a limit value of compartments, over which more compartments would make no more difference in the kinetic behavior of the model. The laccase is equally distributed over all compartments. We decided to give the foam a total fixed volume of 1 liter and therefore 0.05 l per compartment.
                 </p>
                 <p>
-                  --- Bild3 ---
+                  <img src="https://2020.igem.org/wiki/images/thumb/8/83/T--Stuttgart--model_3.png/607px-T--Stuttgart--model_3.png" alt="Picture 2 of the simple michaelis-menten model with compartments">
                 </p>
               <h3>Protein decay</h3>
                 <p>
