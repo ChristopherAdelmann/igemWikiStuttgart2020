@@ -25,7 +25,7 @@ ol {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 600;
   line-height: 2;
 }
@@ -137,7 +137,7 @@ p {
 
 /*********** navbar ***********/
 .navbar-img {
-  width: 100px;
+  height: 30px;
 }
 
 .testContainer {
