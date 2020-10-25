@@ -129,6 +129,11 @@ p {
   width: 100%;
 }
 
+.img-std {
+  max-height: 100%;;
+  max-width: 100%;
+}
+
 /*********** navbar ***********/
 .testContainer {
   height: 5000px;
