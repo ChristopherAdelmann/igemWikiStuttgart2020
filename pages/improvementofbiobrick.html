@@ -32,29 +32,56 @@
     <section class="container-fluid background-light">
       <div class="row justify-content-end">
         <!-- Content Below Here -->
-        <div id="item-1" class="col-md-10 section-content">
+        <div id="abstract" class="col-md-10 section-content">
           <div class="container-flex header-txt-container">
             <h1 class="underline-dark">Improvement of BioBrick</h1>
               <p>
-                An efficient way to use enzymes in order to degrade pollutants in wastewater is immobilization. In general, the enzymes are bond to a surface or carrier which results in local accumulation and allows reuse of the enzymes after discarding  the solution. Additionally, enzyme immobilization leads to improved stability and extended half-life.1 For the degradation of our desired substrates we used laccase from T. versicolor, which was submitted as BioBrick BBa_K2835003 from the iGem team Stockholm in 2018. 
+                An efficient way to use enzymes in order to degrade pollutants in wastewater is immobilization. In general, the enzymes are bond to a surface or carrier which results in local accumulation and allows reuse of the enzymes after discarding  the solution. Additionally, enzyme immobilization leads to improved stability and extended half-life.<sup>1</sup> For the degradation of our desired substrates we used laccase from T. <em>versicolor</em>, which was submitted as BioBrick BBa_K2835003 from the iGem team Stockholm in 2018.
               </p>
-
           </div>
         </div>
-        <div id="item-2" class="col-md-10 section-content"></div>
-        <div id="item-3" class="col-md-10 section-content"></div>
-        <div id="item-4" class="col-md-10 section-content"></div>
+        <div id="problem" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>Problem to solve</h2>
+              <p>
+                Mesostructured cellular silica foam (MCF) was reported to enhance the stability of laccases in terms of temperature, pH-value and half-life. The laccases are immobilized covalently onto the MCF via a glutaraldehyde (GA) bridge. Therefore, the MCF is chemically activated to expose hydroxyl groups which can react with GA and form a semi-acetal. In a second step, the MCF is incubated with the enzyme solution. Amino groups on the surface of the enzyme can bind onto the second, free aldehyde group of GA via a Schiff base reaction. Excess toxic glutaraldehyde is then neutralized and washed away with a glycine buffer and the immobilized laccases remain inside the MCF. Although the immobilization yield of laccases onto a MCF is reported to be larger than 80 %, <em>v<sub>max</sub></em> and affinity are significantly decreased compared to the free laccase. This decrease in enzyme activity is most likely due to a steric blockade of the active site caused by the immobilization process close to it.<sup>2</sup>
+              </p>
+          </div>
+        </div>
+        <div id="solution" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>Our solution</h2>
+              <p>
+                Faced with the decision between extended half-life and better enzyme activity, we thought about a compromise which combines extended stability and also high activity in comparison to the free enzyme. One approach to overcome the problem of a sterically blocked enzyme would be the addition of a poly-Lysine-Tag at the c-terminus across from the active site. This poly-Lys-Tag would potentially improve the activity in two ways. Firstly, enzymes would less likely be immobilized at the amino groups in the active site which are beneficial for the activity. Secondly, with an  immobilization at the tag itself, the intrinsic structure of the immobilized laccase would remain closer to the one of the free enzyme. Thermodynamic movements of the polypeptide chain and conformational changes would occur in a more natural way compared to an immobilization at a domain which is important for intramolecular movements.
+              </p>
+              <p>
+                The length of the poly-Lys-Tag is a critical factor. We propose the length of the tag to be correlated with the native behavior of a free laccase. This would also result in a shorter half-life time and a decrease in stability regarding temperature and pH value. The best of both worlds would be a tag  long enough to not hinder the enzyme's catalytic activity but short enough to maintain the stabilizing benefits of the immobilization. The ideal length could be found by educated guessing, modelling approaches and experimental verification towards the best enzyme activity.
+              </p>
+          </div>
+        </div>
+        <div id="item-4" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>Literature</h2>
+              <ol>
+                <li>
+                  Zhao, M., Wang, Y., Liu, Z., Cui, D. & Bian, X. Properties of immobilized laccase on mesostructured cellular foam silica and its use in dye decolorization. J. Macromol. Sci. Part A Pure Appl. Chem. 48, 447–453 (2011).
+                </li>
+                <li>
+                  Zdarta, J., Feliczak-Guzik, A., Siwińska-Ciesielczyk, K., Nowak, I. & Jesionowski, T. Mesostructured cellular foam silica materials for laccase immobilization and tetracycline removal: A comprehensive study. Microporous Mesoporous Mater. 291, (2020).
+                </li>
+              </ol>
+          </div>
+        </div>
         <div id="item-5" class="col-md-10 section-content"></div>
       </div>
     </section>
 
     <nav id="nav" class="d-none d-md-block position-fixed sidebar">
       <!-- Navigation Items Below Here -->
-      <a href="#item-1" class="list-group-item sidebar-item">Testtitel</a>
-      <a href="#item-2" class="list-group-item sidebar-item">Testtitel</a>
-      <a href="#item-3" class="list-group-item sidebar-item">Testtitel</a>
-      <a href="#item-4" class="list-group-item sidebar-item">Testtitel</a>
-      <a href="#item-5" class="list-group-item sidebar-item">Testtitel</a>
+      <a href="#abstract" class="list-group-item sidebar-item">Abstract</a>
+      <a href="#problem" class="list-group-item sidebar-item">Problem</a>
+      <a href="#solution" class="list-group-item sidebar-item">Solution</a>
+      <a href="#literature" class="list-group-item sidebar-item">Literature</a>
     </nav>
   </div>
 
