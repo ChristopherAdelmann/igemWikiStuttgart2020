@@ -325,7 +325,7 @@ font-family: 'Montserrat';
   font-size: 10vw !important;
   text-align: center;
   line-height: 1.2;
-  margin: 2% 0;
+  margin-top: 2%;
   padding: 5%;
 }
 
@@ -374,6 +374,7 @@ font-family: 'Montserrat';
 
 .home-content {
   margin: 5% 10%;
+  display: absolute;
 }
 
 .home-txt {
@@ -409,6 +410,183 @@ font-family: 'Montserrat';
 
 .home-row {
   margin-bottom: 10%;
+}
+
+.home-med-box {
+  width: 10vw;
+  position: relative;
+  left: 35%;
+  bottom: 20px;
+  transform: rotate(20deg);
+}
+
+.home-med-liq {
+  width: 10vw;
+  position: relative;
+  right: 15%;
+  bottom: 20px;
+  transform: rotate(-10deg);
+}
+
+.home-map {
+  width: 15vw;
+  position: relative;
+  left: 10%;
+  bottom: 20px;
+  transform: rotate(5deg);
+}
+
+.home-hand {
+  width: 20vw;
+  position: relative;
+  left: 80%;
+  bottom: 20px;
+}
+
+.home-lab {
+  width: 30vw;
+  position: relative;
+  left: 40%;
+  display: inline;
+  bottom: 20px;
+}
+
+.home-pill {
+  width: 10vw;
+  position: relative;
+  left: 60%;
+  bottom: 20px;
+  transform: rotate(5deg);
+}
+
+.css-selector {
+  background: linear-gradient(180deg, #cce2f8, #90e5c4);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease infinite;
+  -o-animation: AnimationName 13s ease infinite;
+  animation: AnimationName 13s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 50% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 50% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
+}
+
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 50% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 50% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
+}
+
+.header-animation {
+  background: linear-gradient(180deg, #308ce1, #cce2f8);
+  background-size: 400% 400%;
+  -webkit-animation: WaterAnimate 21s ease infinite;
+  -moz-animation: WaterAnimate 21s ease infinite;
+  -o-animation: WaterAnimate 21s ease infinite;
+  animation: WaterAnimate 21s ease infinite;
+}
+
+@-webkit-keyframes WaterAnimate {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 51% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
+}
+
+@-moz-keyframes WaterAnimate {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 51% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
+}
+
+@-o-keyframes WaterAnimate {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 51% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
+}
+
+@keyframes WaterAnimate {
+  0% {
+    background-position: 50% 0%
+  }
+
+  50% {
+    background-position: 51% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
 }
 
 /*********** BLANK ***********/
