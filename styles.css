@@ -160,10 +160,9 @@ font-family: 'Montserrat';
 
 .img-grid-item {
   display: block;
-  margin: auto;
+  margin: 3%;
   max-height: 100%;
   max-width: 100%;
-  padding: 3%;
 }
 
 .txt-grid-item {
