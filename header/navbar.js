@@ -31,14 +31,16 @@
           navbar.addClass("minimized");
           $(".navbar-brand").addClass("hidden");
           $("nav").addClass("nav-collapse");
+          $("nav").addClass("minimized-container");
           navbar.stop().animate({
-            width: 200,
-            opacity: 0.3
+            width: 500,
+            opacity: 0.3,
           });
         } else {
           $("nav").addClass("navbar-expand-lg");
           navbar.removeClass("minimized");
           $(".navbar-brand").removeClass("hidden");
+          $("nav").removeClass("minimized-container");
           navbar.stop().animate({
             width: "100%",
             opacity: 1

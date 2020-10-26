@@ -12,34 +12,42 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--color-dark);
-  font-family: 'Comfortaa', serif;
+  color: var(--color-dark) !important;
+  font-family: "Comfortaa" !important;
 }
 
 ul {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Verdana, Geneva, sans-serif !important;
 }
 
 ol {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Verdana, Geneva, sans-serif !important;
 }
 
 h1 {
-  font-size: 3.5rem;
-  font-weight: 600;
-  line-height: 2;
+  font-size: 3.5rem !important;
+  font-weight: 700 !important;
+  line-height: 2 !important;
 }
 
 h2 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 1.5;
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
 }
 
 p {
   color: var(--color-dark);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-family: Verdana, Geneva, sans-serif !important;
+  font-size: 1.2rem !important;
+  font-style: normal !important;
+}
+
+hr {
+  color: var(--color-light) !important;
+  background-color: transparent;
+  border: dotted var(--color-light-green) 5px;
+  border-bottom: none;
 }
 
 .xsmall-p {
@@ -102,6 +110,43 @@ p {
   margin: 5%;
 }
 
+/*********** FONTS ***********/
+@font-face {
+  src: url('https://2020.igem.org/wiki/images/0/00/T--Stuttgart--montserrat-v15-latin-italic.eot');
+  src: local('Montserrat RegularItalic'), local('Montserrat-RegularItalic'),
+    url('https://2020.igem.org/wiki/images/0/00/T--Stuttgart--montserrat-v15-latin-italic.eot') format('embedded-opentype'),
+    url('https://2020.igem.org/wiki/images/8/8e/T--Stuttgart--montserrat-v15-latin-italic.woff') format('woff'),
+    url('https://2020.igem.org/wiki/images/f/f0/T--Stuttgart--montserrat-v15-latin-italic.ttf') format('truetype'),
+    url('https://2020.igem.org/wiki/images/7/75/T--Stuttgart--montserrat-v15-latin-italic.svg') format('svg');
+  font-family: 'Montserrat-Italic';
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot');
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot') format('embedded-opentype'),
+    url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff') format('woff'),
+    url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf') format('truetype'),
+    url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg') format('svg');
+  '),
+font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('https://2020.igem.org/wiki/images/b/ba/T--Stuttgart--comfortaa-v29-latin-700.eot');
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'),
+    url('https://2020.igem.org/wiki/images/b/ba/T--Stuttgart--comfortaa-v29-latin-700.eot') format('embedded-opentype'),
+    url('https://2020.igem.org/wiki/images/0/02/T--Stuttgart--comfortaa-v29-latin-700.woff') format('woff'),
+    url('https://2020.igem.org/wiki/images/c/cd/T--Stuttgart--comfortaa-v29-latin-700.svg') format('svg');
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Comfortaa';
+}
+
 /*********** txt-img-highlight ***********/
 .regular-row {
   background-color: #030D17;
@@ -131,7 +176,6 @@ p {
 
 .img-std {
   max-height: 100%;
-  ;
   max-width: 100%;
 }
 
@@ -149,11 +193,15 @@ p {
   background-color: var(--color-dark);
   border-radius: 50px;
   box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
-  padding: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 #navbar-wrapper {
-  padding: 3% 5%;
+  padding: 3% 0;
 }
 
 .hidden {
@@ -162,6 +210,10 @@ p {
 
 .minimized:hover {
   opacity: 1 !important;
+}
+
+.minimized-container {
+  width: 220px;
 }
 
 /*********** txt-highlight ***********/
@@ -175,7 +227,7 @@ p {
 
 /*********** header-txt ***********/
 .header-txt-container {
-  padding: 5%;
+  padding: 2% 5%;
 }
 
 /*********** sidebar ***********/
@@ -187,6 +239,7 @@ p {
 
 .sidebar-item:hover {
   color: var(--color-light-green);
+  font-size: 1.3rem;
 }
 
 .sidebar-item {
@@ -195,7 +248,7 @@ p {
   border-radius: 100%;
   color: var(--color-light-green);
   display: block;
-  font-family: 'Comfortaa', serif;
+  font-family: "Comfortaa";
   height: 20px;
   margin-bottom: 1rem;
   overflow: visible;
@@ -211,7 +264,10 @@ p {
   color: var(--color-medium-green);
 }
 
-/*********** BLANK ***********/
+.sidebar-item:visited {
+  color: var(--color-light-green);
+}
+
 /*********** BLANK ***********/
 /*********** BLANK ***********/
 /*********** BLANK ***********/
