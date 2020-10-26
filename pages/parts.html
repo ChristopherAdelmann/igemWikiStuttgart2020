@@ -32,12 +32,56 @@
     <section class="container-fluid background-light">
       <div class="row justify-content-end">
         <!-- Content Below Here -->
-        <div id="item-1" class="col-md-10 section-content"></div>
-        <div id="item-2" class="col-md-10 section-content"></div>
+        <div id="abstract" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h1 class="underline-dark">Parts</h1>
+            <p>
+              Laccases can be found among many different organisms such as fungi, bacteria and even plants.
+Fungal laccases come up with a higher activity, higher redox potentials and wider substrate range
+compared to bacterial laccases. They are also more active at lower temperatures which can be found,
+for instance, in wastewater. On the other hand, bacterial laccases are more stable regarding high salt
+concentrations and are especially easier to produce.<sup>1,2</sup>
+            </p>
+            <p>
+              In order to investigate the degradation of diclofenac and carbamazepine within our approach, two
+laccases were evaluated. The first laccase tested was an eukaryotic fungal laccase of Trametes
+<em>versicolor</em> which has already been shown to degrade diclofenac.<sup>3</sup> Therefore, a Biobrick contributed by
+the iGEM-Team Stockholm 2018 (the laccase with a his-Tag) was further improved by adding a poly-
+Lys-Tag which should facilitate the immobilization within the Mesocellular Silica Foam (MCF). The
+second laccase we used in this study was a less known bacterial laccase derived from Streptomyces
+<em>cyaneus</em>. Its performance regarding degradation of the substrates of interest was assessed, since a
+prokaryotic laccase would provide benefits regarding costs and duration of expression compared to
+an eukaryotic laccase. Additionally, we added a his-Tag for clean-up and the poly-Lys-Tag for
+improved immobilization conditions.
+            </p>
+          </div>
+        </div>
+        <div id="item-2" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>New BioBrick</h2>
+            <p>
+              We want to contribute another laccase to the iGEM-Biobricks. This one is derived from Streptomyces
+<em>cyaneus</em> and is not as well studied as the laccase of Trametes <em>versicolor</em>. It showed good potential
+regarding activity and stability during ABTS-Assays, so we assessed its capability of degrading our
+substrates of interest. It showed the ability to degrade diclofenac. Hence, this Biobrick could be a
+suitable addition to wastewater treatment approaches through immobilized enzymes. Furthermore,
+a bacterial host allows cheaper and faster expression compared to expression in eukaryotic hosts like
+Pichia <em>pastoris</em>.
+            </p>
+            <p>
+              We ordered the sequence from IDT and obtained a pET28a-plasmid by the IMB of the University of
+Stuttgart. After a XbaI and NotI digestion and subsequent ligation, the ligation product was
+transformed in competent DH5α-E <em>coli</em> cells. We screened for positive clones, isolated the pET28a-
+lac Sc vector and verified successful cloning via sequencing. The expression was performed in the E coli
+strain BL21. The resulting protein lysate showed good potential regarding stability and activity for our
+immobilization approach.
+            </p>
+          </div>
+        </div>
         <div id="item-3" class="col-md-10 section-content">
           <div class="container-flex header-txt-container">
             <h2>Table</h2>
-            <table class="table table-striped">
+            <table class="table table-striped table-bordered">
 <thead class="thead-dark">
   <tr>
     <th scope="col">Name</th>
@@ -47,17 +91,17 @@
   </tr>
 </thead>
 <tbody>
-  <tr>
-    <th scope="row">1</th>
-    <td>Mark</td>
-    <td>Otto</td>
-    <td>@mdo</td>
+  <tr class="table-primary">
+    <th scope="row"><a href="http://parts.igem.org/Part:BBa_K3379001">BBa_K3379001</a></th>
+    <td>Protein domain</td>
+    <td>Laccase of Streptomyces cyaneus with 6xHis Tag and 6xLys Tag</td>
+    <td>1941 bp</td>
   </tr>
-  <tr>
-    <th scope="row">2</th>
-    <td>Jacob</td>
-    <td>Thornton</td>
-    <td>@fat</td>
+  <tr class="table-primary">
+    <th scope="row"><a href="http://parts.igem.org/Part:BBa_K3379002">BBa_K3379002</a></th>
+    <td>Protein domain</td>
+    <td>Laccase Trametes versicolor with 3xlys tag and 6xhis tag</td>
+    <td>1530 bp</td>
   </tr>
 </tbody>
 </table>
@@ -70,7 +114,7 @@
 
     <nav id="nav" class="d-none d-md-block position-fixed sidebar">
       <!-- Navigation Items Below Here -->
-      <a href="#item-1" class="list-group-item sidebar-item">Testtitel</a>
+      <a href="abstract" class="list-group-item sidebar-item">Abstract</a>
       <a href="#item-2" class="list-group-item sidebar-item">Testtitel</a>
       <a href="#item-3" class="list-group-item sidebar-item">Testtitel</a>
       <a href="#item-4" class="list-group-item sidebar-item">Testtitel</a>
