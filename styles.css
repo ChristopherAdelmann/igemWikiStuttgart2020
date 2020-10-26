@@ -182,6 +182,8 @@ font-family: 'Montserrat';
 }
 
 /*********** navbar ***********/
+.dropdown-item {}
+
 .navbar-img {
   height: 30px;
 }
