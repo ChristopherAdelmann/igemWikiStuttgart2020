@@ -279,11 +279,11 @@ font-family: 'Montserrat';
 }
 
 .card-header {
-  color: red !important;
+  background-color: var(--color-light-blue);
 }
 
 .btn-card {
-  color: red;
+  color: var(--color-dark);
 }
 
 /*********** BLANK ***********/
