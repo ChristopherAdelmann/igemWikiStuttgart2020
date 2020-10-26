@@ -205,10 +205,6 @@ font-family: 'Montserrat';
   margin-right: 1rem;
 }
 
-.navbar-expand-lg {
-  height: 60px;
-}
-
 #navbar-wrapper {
   padding: 3% 0;
 }
@@ -335,12 +331,84 @@ font-family: 'Montserrat';
 
 .home-header {
   background-color: var(--color-medium-blue);
-  position: absolute;
+  position: relative;
 }
 
 .fish-one {
+  width: 20vw;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+.fish-two {
+  width: 25vw;
+  position: absolute;
+  top: 35%;
+  right: 20%;
+}
+
+.fish-three {
+  width: 30vw;
+  position: absolute;
+  top: 30%;
+  left: -5%;
+  transform: scaleX(-1) rotate(20deg);
+}
+
+.fish-four {
+  width: 30vw;
+  position: absolute;
+  top: 15%;
+  right: -10%;
+  transform: scaleX(-1) rotate(30deg);
+}
+
+.fish-five {
+  width: 30vw;
+  position: absolute;
+  top: 50%;
+  right: -20%;
+  transform: rotate(40deg);
+}
+
+.home-content {
+  margin: 5% 10%;
+}
+
+.home-txt {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: var(--color-medium-blue);
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+}
+
+.home-txt-header {
+  text-align: justify;
+  color: var(--color-light);
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  font-family: "Comfortaa" !important;
+}
+
+.home-txt-paragraph {
+  text-align: justify;
+  margin-top: 20px;
+  color: var(--color-light);
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  font-family: "Comfortaa" !important;
+}
+
+.img-home {
+  width: 100%;
   position: relative;
-  display: inline;
+}
+
+.home-row {
+  margin-bottom: 10%;
 }
 
 /*********** BLANK ***********/
