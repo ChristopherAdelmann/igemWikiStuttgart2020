@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title></title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../collaboration-styles.css">
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <!-- <scriptsrc="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
+  <script src="../bootstrap/jquery.slim.min.js"></script>
+  <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body class="content-wrapper background-light">
+
+  <!-- HTML Code Below Here -->
+  <html>
+  <style>
+.jansgroseheadline {
+text-align:left;
+}
+
+
+figure {
+   padding: 5px;
+   font-size: .875em;
+   display: table;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    padding: 0 5px 5px;
+}​
+
+
+</style>
+
+  <ul class="nav nav-tabs sticky-top" style="background-color: white">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Overview</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Methods</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Experts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link back-wiki" href="#">Back to iGEM Stuttgart</a>
+    </li>
+  </ul>
+
+  <!----------SideBar Ignore me --------->
+
+  <div class="collaboration-wrapper">
+
+  <div class="TFcontainer">
+             <div class="containertext">
+                 On this page we show you <b>what each team did</b> and where are <b>similarities</b> and where are <b>differences</b>. If you have specific questions about a method or the general idea of the project just <b>write us an email</b> and we will get in contact with you or check out the teams <b>individual wiki pages</b> for more details.
+
+</div>
+
+         </div>
+<ul>
+             <li style="text-align:justify">
+                 <b><a href="https://2020.igem.org/Team:TU_Darmstadt" target="_blank"> <b>Darmstadt</b></a></b>
+                 <br>
+           Mail: igem@bio.tu-darmstadt.de
+             </li>
+             <li style="text-align:justify">
+                 <b><a href="https://2020.igem.org/Team:TU_Kaiserslautern" target="_blank"> <b>Kaiserslautern</b></a></b>
+                 <br>
+                 Mail: igem@bio.uni-kl.de
+             </li>
+<li style="text-align:justify">
+                 <b><a href="https://2020.igem.org/Team:Stuttgart" target="_blank"> <b>Stuttgart</b></a></b>
+                 <br>
+                 Mail: Igem@ibvt.uni-stuttgart.de
+             </li>
+</ul>
+         <br>
+
+             <a class="anchor" id="Cat_Rec"></a>
+             <h1 class="jansgroseheadline">
+                 Catalyzed Reaction
+             </h1>
+             <div class="headlinebar">
+             </div>
+
+         <div class="TFcontainer">
+             <div class="containertext">Laccases are <b>multi-copper oxidoreductases</b> which are able to oxidize a <b>wide variety of substrates</b> either directly or indirectly. In the direct oxidation, the substrate interacts with the laccase‘s copper cluster. The indirect oxidation involves a mediator which is oxidized by the laccase. The mediator then oxidizes the substrate<sup id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>. <br>
+                 In the course of the reaction, one electron is transferred from the substrate to the copper cluster, turning the substrate into a radical<sup id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>. After four substrate molecules are oxidized in this manner, the enzyme‘s fully reduced copper cluster then binds molecular oxygen. Two consecutive two-electron reductions then form two water molecules, putting the enzyme back into its oxidized form<sup id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><sup>,</sup><sup id="cite_ref-2"><a href="#cite_note-1">[2]</a></sup>.
+
+                 <div style="display: flex;justify-content: center;">
+                     <figure>
+                         <img style="width:80%; margin-left:10%" src="https://2020.igem.org/wiki/images/e/e8/T--TU_Darmstadt--Dicloox_partnership.jpeg" alt="figure">
+                         <figcaption id="Figure#"><b>Figure 1:</b> Diclofenac oxidation catalyzed by laccase (Image was designed with <a  target="https://biorender.com/" href="https://biorender.com/"  target="blank">BioRender.com</a>). It is believed that the radical cation (b) of Diclofenac (a), which is generated by a laccase-mediated oxidation reaction, reacts with water to form the para-hydroxy substituted intermediate (c). This can undergo further oxidation to form the para-benzoquinone imine derivate (d)<sup id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>.  Formation of 4‘-Hydroxydiclofenac, where the hydroxylation takes place in para-position to the nitrogen atom on the chlorinated benzene ring has also been described <sup id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup>. Note that (d) was determined as a reaction product of the laccase from Trametes versicolor <sup id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>. </figcaption>
+                     </figure>
+                 </div>
+             </div>
+
+         </div>
+         <div class="headline">
+             <a class="anchor" id="Gen_Work"></a>
+             <h1 class="jansgroseheadline">
+                 General Workflow
+             </h1>
+             <div class="headlinebar">
+             </div>
+         </div>
+
+         <br>
+         <div class="TFcontainer">
+             <div class="containertext">In this section we <b>summarized the workflows of our projects</b>. By doing so we try to give future teams an <b>overview</b> over the complexity of such a project. Also, this makes it easier for the reader to <b>compare our projects</b>.
+             </div>
+
+         </div>
+         <br>
+         <h1 class="jansgroseheadline">iGEM TU Darmstadt</h1>
+         <div class="TFcontainer">
+             <div class="containertext">
+                 In our project B-Tox, we aim to <b>positively impact the fight against environmental pollution</b>. Diclofenac and antibiotics are micropollutants of special interest, as their harmful accumulation in our environment is yet unbroken. We aim to use laccases and antibiotic-specific esterases to render both micropollutants less harmful and therefore display them on the biofilm matrix protein TasA in a engineered <b><i>Bacillus subtilis</i></b> biofilm for the use in wastewater treatment plants.
+
+                 <br><br>
+<b>a)</b> We tested the biofilm durability in our <a href="https://2020.igem.org/Team:TU_Darmstadt/Project/Biofilm#Flowchamber"  target="blank"><b>self-designed flow chamber</b></a> and aim to measure the sorption capacity of compounds of interest (e.g. diclofenac) to ensure that our host <i>B. subtilis</i> is producing a biofilm which is suitable for our application. Afterwards, we aim to produce a <b>TasA-sfGFP fusion protein</b> in our strain and test whether fusion proteins of TasA and a second domain inhibit biofilm formation in  <i>B. subtilis</i>.
+
+                 <br><br>
+
+                 <b>b)</b> Besides enabling the generation of an engineered biofilm, we also have to investigate whether our enzymes are active. Consequently, we <b>recombinantly express and purify our enzymes</b> in <i>E. coli</i> and characterize their properties <i>in vitro</i>. <b>Enzymatic activity</b> will be tested in time courses with coupled analysis via <b>HPLC</b>. Furthermore, we want to confirm that the degradation products of our targeted micropollutants are less toxic and therefore aim to conduct an <a href="https://2020.igem.org/Team:TU_Darmstadt/Project/Pharmaceutical_Degradation#toxicityassay"  target="blank"><b> toxicity assays </b></a>.
+<br><br>
+<b>c)</b> After successfully testing our biofilm and our enzymes as described in section <b>a)</b> and <b>b)</b> plasmids encoding both <b>components</b> will be cloned in <i>E. coli</i> and subsequently transformed into <i>B. subtilis</i> and <b>integrated into the genome</b>. At this stage of our project we aim to use our designed <a href="https://2020.igem.org/Team:TU_Darmstadt/Project/Biofilm#Flowchamber" target="blank"><b>flow chamber</b></a> once more for testing the durability and stability of our engineered biofilm harbouring immobilized enzymes.  Eventually, we aim to <b>measure the degradation characteristics of our modified biofilm</b> by incubating degradation substrates with the biofilm and analyze samples of time points via HPLC.
+
+<br><br>
+<b>d)</b> We want to <b>apply</b> our modified biofilm in a <b>wastewater treatment plant</b> and therefore in direct contact to our freshwater supply. For <b>biosafety</b> reasons, we developed a novel quorum sensing-based <a href="https://2020.igem.org/Team:TU_Darmstadt/Project/Kill_Switch"  target="blank"><b>kill switch</b></a>. This kill switch will act as an <b>additional safety measure</b> complementing physical containment. <br> We are aware that this concept has yet to be practically tested and that we cannot yet state that it will be successful. However, we believe that the concept of a modular <i>B. subtilis</i> biofilm that can be introduced into wastewater treatment plants for degradation of problematic organic compounds</b> has the potential to expand our methods in eliminating environmental pollution and purifying drinking water.
+             </div>
+
+         </div>
+         <div style="display: flex;justify-content: center;">
+             <figure>
+                 <img style="width:100%" src="https://2020.igem.org/wiki/images/1/1d/T--TU_Darmstadt--Workflow_Lab.png" alt="figure">
+                 <figcaption id="Figure#"><b>Figure 2:</b> Workflow Darmstadt. <b>a)</b> Biofilm formation and flow chamber tests. <b>b)</b> Expression and in vitro analysis of our enzymes. <b>c)</b> Displaying tested enzymes on our biofilm and further activity tests. <b>d)</b> Development and testing of novel kill switch. (Image was designed with <a  target="https://biorender.com/" href="https://biorender.com/"  target="blank">BioRender.com</a>).</figcaption>
+             </figure>
+         </div>
+
+         <h1 class="jansgroseheadline">iGEM TU Kaiserslautern</h1>
+         <div class="TFcontainer">
+             <div class="containertext">
+                 Our project involves the transformation of the <b>green algae <i>Chlamydomonas reinhardtii</i></b>, enabling the <b>chemical modification of diclofenac</b>, resulting in its functional degradation. We will <b>integrate genes for the enzyme laccase</b> into the genome of our green algae, as well as perform a <b>control</b> by cloning the genes into the <b>bacterium <i>Escherichia coli</i></b>. This will facilitate the <b>production</b> of these enzymes <b>and secretion</b> into medium (the wastewater from wastewater treatment plants), where they can then break down diclofenac. We <b>split into 3 teams</b> to best implement our experimental process: one team focused on producing proteins with our model organism called <b>Chlamy Team</b>, one focused on doing the same with our control organism called <b><i>E. coli</i> Team</b>, and our <b>Assay Team</b> who performed the confirmation activity assays with both previous teams’ produced laccases.
+
+                 <br><br><u>Chlamy Team:</u><br>
+                 Vectors with the genes for the <b>laccases BaLac and MarLac</b> were produced via  <a href=" https://2020.igem.org/Team:TU_Kaiserslautern/Design#Design_MoClo"  target="blank"><b>modular cloning (MoClo)</b></a>. All level 2 multigene constructs included a spectinomycin resistance cassette for later selection. After transformation in <i>Chlamydomonas reinhardtii</i> by electroporation, the algae were plated on TAP agar plates containing spectinomycin. Random colonies were picked and inoculated in fluid culture for screening. The cells were lysed and centrifuged to separate the debris from the supernatant, containing the soluble laccases. SDS-Page and a subsequent <b>Western Blot were performed to find positive transformants</b>. All laccase-producing cultures were inoculated again in fluid culture and prepared for <b>ABTS Assay</b> and <b>HPLC Assay</b>.
+
+                 <br><br><u><i>E.coli</i> Team:</u><br>
+                 The vector was obtained through in vitro synthesis and purchased from General Biosystems. First, <b>two vectors which include the gene for one of the laccases (BaLac or MarLac) </b>, a tac promoter and an ampicillin resistance were transformed into<i> E. coli</i>. The transformed <i>E.coli</i> was grown on LB-plates with ampicillin to select for the colonies that took up the vector. <b>One colony</b> was chosen and produced in a fluid culture with which <b>proteins were expressed</b>. Production was induced with IPTG. After expression, proteins were purified with GST-Sepharose columns. The concentrated protein was then ready to be <b>tested with ABTS or HPLC</b>. As a visible proof that laccases were produced, SDS-PAGE and <b>Western Blot</b> screening was performed.
+
+                 <br><br><u>Assay Team:</u><br>
+                 Because ABTS interacts with laccase in a similar way to the laccase-diclofenac interaction, a series of <b>ABTS assays</b> were performed to determine reaction strength. To begin, the <b>optimal wavelength for ABTS was confirmed via spectrometer</b>. An assay was then performed to visualize the positive control laccase from <i>Trametes versicolor</i> at the two optimal pH’s documented for BaLac (pH 4) and MarLac (pH 7), as well as its own optimal pH 5. In a 96 well plate, varying concentrations of the <b>positive control laccase at different pH levels were added to the substrate</b>. Once produced, we ran the same assay with the manufactured BaLac and MarLac laccases (both intracellular and secreted, depending what was produced) at their optimal pH and compared it against the positive control to confirm activity.
+
+                 <br><b>HPLC</b> was run first with Diclofenac to verify standard retention time, then a positive control reaction with <i>T. versicolor</i> to determine the products to compare them against the produced enzymes. Finally, the <b>manufactured laccase products were analyzed</b>.
+
+                 <br>To ensure an efficient enzyme production, <i>Chlamydomonas</i> will be raised as a permanent culture in a bioreactor. <b>To separate the green algae from the wastewater, we want to create a filter between the <a href="https://2020.igem.org/Team:TU_Kaiserslautern/Design#Design_Outlook"  target="blank">bioreactor</a> and the wastewater basin</b> that only allows the enzymes to pass through. <b>The degradation products show no toxicity and therefore do not harm the environment</b>.
+
+             </div>
+
+         </div>
+<br>
+         <div style="display: flex;justify-content: center;">
+             <figure>
+                 <img  src="https://2020.igem.org/wiki/images/6/6f/T--TU_Darmstadt--Partnership_Workflow_Kaiserslautern_-_Kopie.png" alt="figure" width="100%" height="100%" >
+                 <figcaption id="Figure#"><b>Figure 3:</b> Workflow Kaiserslautern. Chlamy and Ecoli Teams (green and red box respectively): Incorporate gene of laccase via genetic engineering. Both Teams (purple box): Cultivation, purification and detection. Assay Team (blue box): Preparing and testing via ABTS-Assay and use of HPLC. (Image was designed with <a  target="https://biorender.com/" href="https://biorender.com/"  target="blank">BioRender.com</a>). </figcaption>
+             </figure>
+         </div>
+
+         <h1 class="jansgroseheadline">iGEM Stuttgart</h1>
+         <div>
+             Our project <b>LAC-MAN</b> focusses on <b>water purification from pharmaceuticals</b> such as <b>diclofenac</b> (a pain reliever) and <b>carbamazepine</b> (anticonvulsant medication) using laccases. <b>Laccase</b> is a class of enzyme which is able to neutralize a large number of pollutants. In our project, they are <b>immobilized to a mesoporous silica foam</b>, giving them more <b>long-term sustainability and making them more pH- and thermostable</b>. Silicon-based materials are well suited to this task because they are <b>environmentally friendly</b>, <b>biocompatible</b> and, above all, <b>resistant to organic solvents</b> and <b>microbial attacks</b>. Since the enzymes are bound to a matrix, <b> no genetically modified organisms</b> are released into the environment. Furthermore, the degraded products no longer have either negative effects or toxic properties. In the following figure and corresponding description, a summary is provided about the applied methods used in our project.
+
+         </div>
+         <div style="display: flex;justify-content: center;">
+             <figure>
+                 <img  src="https://2020.igem.org/wiki/images/1/10/T--TU_Darmstadt--Partnership_Workflow_Stuttgart.png" alt="figure" width="50%" height="auto" style="margin-left:25%;">
+                 <figcaption id="Figure"><b>Figure 4:</b> Workflow Stuttgart. The laccase genes of <i>S. cyaneus</i> and <i>T. versicolor</i> were cloned into the vectors pBAD and pPICZα via the cloning strain <i>E. coli</i> DH5α. Expression of the laccases was performed in the eukaryotic expression host <i>P. pastoris</i> X33 and <i>E. coli</i> BL21(DE3). The proteins were afterwards purified from the crude extract using nickel NTA beads. The purified laccases activity was optimized for pH and temperature optimums using ABTS assays. Simultaneously a silica foam was synthesized in which the laccases were immobilized to further improve the enzymes stability. The degradation of the target substrates Diclofenac and Carbamazepine was monitored afterwards using a reverse phase UHPLC column with immobilized and free enzyme. </figcaption>
+             </figure>
+         </div>
+
+
+
+         <div class="headline">
+             <a class="anchor" id="Comp_Table"></a>
+             <h1 class="jansgroseheadline">
+                 Project Comparison Table
+             </h1>
+             <div class="headlinebar">
+             </div>
+         </div>
+         <table class="table table-bordered">
+             <thead>
+             <tr>
+     <th style="width: 16%" scope="col">Issue</th>
+     <th style="width: 28%" scope="col">Darmstadt</th>
+     <th style="width: 28%" scope="col">Kaiserslautern</th>
+     <th  style="width: 28%"scope="col">Stuttgart</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr>
+                 <th scope="row">Used Enzymes</th>
+                 <td><div style="float:left;width:100%;"><u>Laccase</u>: CotA of <i>Bacillus&nbsp;subtilis</i> and CueO of <i>Escherichia&nbsp;coli</i>
+                     <br><u>Esterase</u>: EreB of <i>Escherichia&nbsp;coli</i></div></td>
+                 <td><div style="float:left;width:100%;"><u>Synthesized</u>: <i>Botrytis&nbsp;aclada</i> laccase (BaLac) and unknown mutated marine laccase (MarLac)
+                     <u>Control</u>: <i>Trametes&nbsp;versicolor</i> laccase</div></td>
+                 <td><div style="float:left;width:100%;">Laccases of <i>Trametes&nbsp;versicolor</i> and <i>Streptomyces&nbsp;cyaneus</i> </div></td>
+             </tr>
+             <tr>
+                 <th scope="row">Model Organism</th>
+                 <td><div style="float:left;width:100%;"><i>Bacillus&nbsp;subtilis</i> and  <i>Escherichia&nbsp;coli</i></div></td>
+                 <td><div style="float:left;width:100%;">Green algae <i>Chlamydomonas&nbsp;reinhardtii</i> and <i>Escherichia&nbsp;coli</i> as comparison</div></td>
+                 <td><div style="float:left;width:100%;"><i>Pichia&nbsp;pastoris</i> and <i>Escherichia&nbsp;coli </i></div></td>
+             </tr>
+             <tr>
+                 <th scope="row">Special Technique</th>
+                 <td><div style="float:left;width:100%;">Immobilization of the enzymes in the matrix of the <i>Bacillus&nbsp;subtilis</i> biofilm</div></td>
+                 <td><div style="float:left;width:100%;">Laccase secretion and filtration before access to wastewater</div></td>
+                 <td><div style="float:left;width:100%;">Immobilization of the enzymes in a silica foam </div></td>
+             </tr>
+             <tr>
+                 <th scope="row">Tested Substrates</th>
+                 <td><div style="float:left;width:100%;"><u>Laccases</u>:
+                     <br>ABTS
+                     <br>Diclofenac
+
+                     <br><u>EreB</u>:
+                     <br>Erythromycin
+                     <br>Azithromycin
+                 </div></td>
+                 <td><div style="float:left;width:100%;">ABTS
+                             <br>Diclofenac</div></td>
+                 <td><div style="float:left;width:100%;">ABTS
+                            <br>Diclofenac
+                            <br>Carbamazepine
+                 </div> </td>
+             </tr>
+             <tr>
+                 <th scope="row">Genetic Engineering</th>
+                 <td><div style="float:left;width:100%;"><u>Construct Assembly</u>: Gibson Assembly
+                     <br>Genomic Integration: Homologous Recombination
+                 </div> </td>
+                 <td><div style="float:left;width:100%;"><u><i>Chlamydomonas&nbsp;reinhardtii</i></u>: MoClo
+                     <br><u><i>Escherichia&nbsp;coli</i></u>: ordered/ synthesized plasmid</div></td>
+                 <td><div style="float:left;width:100%;"> Restriction digest
+                 </div></td>
+             </tr>
+             <tr>
+                 <th scope="row">Fun Facts</th>
+                 <td><div style="float:left;width:100%;">Overgrad team with 81% undergrad students</div></td>
+                 <td><div style="float:left;width:100%;">Only team from Rhineland-Palatinate</div></td>
+                 <td><div style="float:left;width:100%;">13 German potatoes and one Egyptian</div></td>
+             </tr>
+             </tbody>
+         </table>
+
+         <h2>ABTS reaction</h2>
+         <br>
+         As you can see in the table we use <b>ABTS</b> as one of our preferred substances for <b>measuring enzyme activity</b>. This is the case because ABTS has a <b>high throughput</b> in the catalyzed reaction and the oxidation product triggers a <b>colour change</b> that can be <b>photmetrically measured</b>.
+         <br>
+         <div style="display: flex;justify-content: center;">
+             <figure>
+                 <img style="width:80%; margin-left:10%" src="https://2020.igem.org/wiki/images/9/92/T--TU_Darmstadt--T--TU_Darmstadt--ABTSox_partnership.png
+" alt="figure">
+                 <figcaption id="Figure#"><b>Figure 5:</b> Oxidation of ABTS by laccase (Image was designed with <a  target="https://biorender.com/" href="https://biorender.com/"  target="blank">BioRender.com</a>). During the reaction, 4 moles of ABTS are oxidized to their corresponding radical cation form, turning the solution from colorless to green. This change can be measured via UV/Vis-spectroscopy at 420nm<sup id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><sup>,</sup><sup id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>. The electrons from the substrate are stored in the laccase, turning it from its oxidized form (Laccaseox,. relative oxidation number: +IV) into its reduced form (Laccasered., relative oxidation number: ±0). In its reduced form, the laccase is able to reduce 1 mole of oxygen to 2 moles of water, via two two-electron transfers<sup id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup>.
+                 </figcaption>
+             </figure>
+         </div>
+
+
+         <br>
+         <div class="headline">
+             <a class="anchor" id="WWTP_Impl"></a>
+             <h1 class="jansgroseheadline">
+                 Wastewater Treatment Plant Implementation
+             </h1>
+             <div class="headlinebar">
+             </div>
+         </div>
+
+         <br>
+         <div class="TFcontainer">
+             <div class="containertext">
+                 To visualize where our projects will be implemented in a wastewater treatment plant we <b>designed the following overview</b>. If you cannot remember what happens in the respective installations just have a look again in the table on our <a href="https://2020.igem.org/Team:TU_Darmstadt/Partnership" target="blank"><b>overview page</b></a>. You will not find a fourth purification stage there, as these are not implemented yet and are therefore hard to include into a generalized image. Examples for technologies that are already implemented are ozonolysis and actived carbon.
+             </div>
+         </div>
+         <br>
+         <div style="display: flex;justify-content: center;">
+             <figure>
+                 <img style="height: 100%; width: 100%;" height" src="https://2020.igem.org/wiki/images/0/04/T--TU_Darmstadt--Implementation_Partnership_Oxiteers.png" alt="figure" >
+                 <br><br>
+                 <figcaption id="Figure#"><b>Figure 6:</b> Depicted are our three Oxiteers sitting in their planned steps in a wastewater treatment plant. <i>C. reinhardtii</i> from team Kaiserslautern will sit in a seperate bioreactor that produces laccases and directly pumping them into the sand trap via an inlet. The silica foam with immobilized laccases from team Stuttgart will sit in the secondary sedimentation basin. The <i>B. subtilis</i> biofilm displaying laccases in it´s matrix from team Darmstadt will be sitiuated in a fourth purifications stage.</figcaption>
+             </figure>
+         </div>
+
+
+         <div class="headline">
+             <a class="anchor" id="Pos_Col"></a>
+             <h1 class="jansgroseheadline">
+                 Possible Collaborations
+             </h1>
+             <div class="headlinebar">
+             </div>
+         </div>
+         <br>
+         <div class="TFcontainer">
+             <div class="containertext">In this section you find our <b>ideas for further collaboration</b>. Sadly, these ideas could not be realized this year due to COVID-19.
+             </div>
+         </div>
+         <br>
+
+
+
+         <ul>
+             <li style="text-align:justify">
+                 <b>Immobilization of all three teams laccases in Stuttgart´s silica foam/ Darmstadt´s biofilm.</b>
+                 <br>
+                 We could have exchanged our laccases and tried to immobilize the all different laccases according to our protocols to compare each laccase effectiveness. Potentially higher immobilization efficiencies and higher temperature/pH resistances could have been achieved.
+             </li>
+             <li style="text-align:justify">
+                 <b>Analyzing samples of each other to confirm results with different analytical methods.</b>
+                 <br>
+                 Different biodegradation samples of pharmaceutical residues could have been exchanged to be analyzed by the other teams with their specific analytical methods. Thereby, the obtained experimental results could have been confirmed by the other teams.
+             </li>
+
+             <li style="text-align:justify">
+                 <b>Laccase Exchange.</b>
+                 <br>
+                 We could have tested the different chosen laccases and whether they are able to degrade the other teams substrates as well to a certain extent.
+
+             </li>
+
+             <li style="text-align:justify">
+                 <b>Development of further modules for Darmstadt`s <a href="https://2020.igem.org/Team:TU_Darmstadt/Project/Biofilm#Flowchamber"  target="blank">flow chamber</a>.</b>
+                 <br>
+                 This includes a module for silica foam of Stuttgart and for <i>Chlamydomonas Rheinhardtii</i> of Kaiserslautern.
+             </li>
+
+
+             <li style="text-align:justify">
+                 <b>Stability test via Atomic Force Microscopy (AFM) by Kaiserslautern.</b>
+                 <br>
+                 Kaiserslautern coud have tested the stability of Darmstadt`s biofilm in the AFM.
+             </li>
+
+
+             <li style="text-align:justify">
+                 <b>Construction of a filter element.</b>
+                 <br>
+                 The teams Stuttgart and Darmstadt could have cooperated in designing a filter element that could be practically deployed in a sewage plant. In the filter element the biofilm or the silica foam with immobilized enzyme could be included.
+             </li>
+
+             <br>
+
+         </ul>
+
+
+         <div class="referencestd">
+             <h4 style="text-align: left"> References</h4>
+
+             <a class="anchor" id="cite_note-1"></a>
+             <a class="referencestd" href="https://doi.org/10.1186/s40643-018-0190-z"
+                target="_blank">1. Agrawal, K.; Chaturvedi, V.; Verma, P. Fungal Laccase Discovered but yet Undiscovered. Bioresour. Bioprocess. 2018, 5 (1), 4. https://doi.org/10.1186/s40643-018-0190-z. </a>
+
+             <a class="anchor" id="cite_note-2"></a>
+             <a class="referencestd" href="https://doi.org/10.3390/catal9121023"
+                target="_blank">2. Zerva, A.; Simić, S.; Topakas, E.; Nikodinovic-Runic, J. Applications of Microbial Laccases: Patent Review of the Past Decade (2009–2019). Catalysts 2019, 9 (12), 1023. https://doi.org/10.3390/catal9121023.  </a>
+
+             <a class="anchor" id="cite_note-3"></a>
+             <a class="referencestd" href="https://doi.org/10.1007/s00253-013-5055-y"
+                target="_blank">3. Hahn, V. Enhanced Laccase-Mediated Transformation of Diclofenac and Flufenamic Acid in the Presence of Bisphenol A and Testing of an Enzymatic Membrane Reactor. 2018, 11. https://doi.org/10.1007/s00253-013-5055-y </a>
+
+             <a class="anchor" id="cite_note-4"></a>
+             <a class="referencestd" href="https://doi.org/10.1016/j.jhazmat.2009.11.112"
+                target="_blank">4. Marco-Urrea, E.; Pérez-Trujillo, M.; Cruz-Morató, C.; Caminal, G.; Vicent, T. Degradation of the Drug Sodium Diclofenac by Trametes Versicolor Pellets and Identification of Some Intermediates by NMR. Journal of Hazardous Materials 2010, 176 (1–3), 836–842. https://doi.org/10.1016/j.jhazmat.2009.11.112.</a>
+
+             <a class="anchor" id="cite_note-5"></a>
+             <a class="referencestd" href="https://doi.org/10.1016/S0891-5849(98)00315-3 target=""
+             target="_blank">5. Re, R.; Pellegrini, N.; Proteggente, A.; Pannala, A.; Yang, M.; Rice-Evans, C. Antioxidant Activity Applying an Improved ABTS Radical Cation Decolorization Assay. Free Radical Biology and Medicine 1999. https://doi.org/10.1016/S0891-5849(98)00315-3.</a>
+
+
+
+
+</div>
+
+  </div>
+
+
+  </html>
+  <!-- JS Scripts Below Here -->
+  <script src="/Users/christopher/Documents/Web Development/jQuery.js" charset="utf-8"></script>
+
+</body>
+
+</html>
