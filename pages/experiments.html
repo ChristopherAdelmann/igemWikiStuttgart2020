@@ -39,16 +39,19 @@
             <hr />
             <h3>Bacterial laccase gene</h3>
             <h4>Media and Agar (E.coli)</h4>
+            <!--
+            Media and agar
+            -->
             <div class="accordion" id="mediaandagar">
               <div class="card">
                 <div class="card-header" id="agarecoli">
                   <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn btn-link btn-block text-left btn-card collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       LB Agar for E.<em>coli</em>
                     </button>
                   </h2>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="agarecoli" data-parent="#mediaandagar">
+                <div id="collapseOne" class="collapse" aria-labelledby="agarecoli" data-parent="#mediaandagar">
                   <div class="card-body">
                     <iframe src="https://2020.igem.org/wiki/images/2/26/T--Stuttgart--LB_Agar_for_E.coli.pdf#toolbar=0" width="100%" height="750"></iframe>
                   </div>
@@ -58,12 +61,12 @@
               <div class="card">
                 <div class="card-header" id="mediumecoli">
                   <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       LB Medium for E.<em>coli</em>
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="mediumecoli" data-parent="#accordionExample">
+                <div id="collapseTwo" class="collapse" aria-labelledby="mediumecoli" data-parent="#mediaandagar">
                   <div class="card-body">
                     <iframe src="https://2020.igem.org/wiki/images/d/d7/T--Stuttgart--LB_Medium_for_E.coli.pdf#toolbar=0" width="100%" height="750"></iframe>
                   </div>
@@ -73,7 +76,7 @@
               <div class="card">
                 <div class="card-header" id="lowsaltlb">
                   <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       Low salt LB
                     </button>
                   </h2>
@@ -87,7 +90,7 @@
               <div class="card">
                 <div class="card-header" id="socmedium">
                   <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                       SOC medium
                     </button>
                   </h2>
@@ -99,8 +102,137 @@
                 </div>
               </div>
             </div>
-              <!--<p>
-                <iframe src="https://2020.igem.org/wiki/images/2/26/T--Stuttgart--LB_Agar_for_E.coli.pdf#toolbar=0" width="100%" height="750"></iframe>
+            <!--
+            Generation of chemical competent cells
+            -->
+            <h4>Competent cells and transformation</h4>
+            <div class="accordion" id="competentcells">
+              <div class="card">
+                <div class="card-header" id="competent">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left btn-card collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                      Generation of chemical competent cells
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="competent" data-parent="#competentcells">
+                  <div class="card-body">
+                    <iframe src="https://2020.igem.org/wiki/images/4/4c/T--Stuttgart--Generation_of_competent_cells.pdf#toolbar=0" width="100%" height="750"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="transformation">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left btn-card collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                      Transformation
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="transformation" data-parent="#competentcells">
+                  <div class="card-body">
+                    <iframe src="https://2020.igem.org/wiki/images/4/48/T--Stuttgart--Transformation_of_competent_cells.pdf#toolbar=0" width="100%" height="750"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--
+            Cloning
+            -->
+            <h4>Cloning</h4>
+            <div class="accordion" id="cloning">
+              <div class="card">
+                <div class="card-header" id="fusionpcr">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                      PCR for amplification
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="fusionpcr" data-parent="#cloning">
+                  <div class="card-body">
+                    <iframe src="https://2020.igem.org/wiki/images/f/fe/T--Stuttgart--PCR_for_amplification.pdf#toolbar=0" width="100%" height="750"></iframe>
+                  </div>
+                </div>
+              </div>
+              <!-- Card Two -->
+              <div class="card">
+                <div class="card-header" id="assemblychemical">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                      DNA Assembly chemical
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="assemblychemical" data-parent="#cloning">
+                  <div class="card-body">
+                    <iframe src="https://2020.igem.org/wiki/images/1/1b/T--Stuttgart--Assembly_chemical.pdf#toolbar=0" width="100%" height="750"></iframe>
+                  </div>
+                </div>
+              </div>
+              <!-- Card three -->
+              <div class="card">
+                <div class="card-header" id="assemblyelectrocompetent">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                      DNA Assembly electrocompetent
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseNine" class="collapse" aria-labelledby="assemblyelectrocompetent" data-parent="#cloning">
+                  <div class="card-body">
+                    <iframe src="https://2020.igem.org/wiki/images/4/4c/T--Stuttgart--Assembly_electrocompetent.pdf#toolbar=0" width="100%" height="750"></iframe>>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="assemblyprotocol">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                      DNA Assembly Reaction Protocol
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTen" class="collapse" aria-labelledby="assemblyprotocol" data-parent="#cloning">
+                  <div class="card-body">
+                    <iframe src="https://2020.igem.org/wiki/images/f/f5/T--Stuttgart--Assembly_Reaction_protocol.pdf#toolbar=0" width="100%" height="750"></iframe>>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="ligationpet22b">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                      Ligation of pET22b and modified laccase of S. <em>cyaneus</em>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseEleven" class="collapse" aria-labelledby="ligationpet22b" data-parent="#cloning">
+                  <div class="card-body">
+                    <iframe src="https://2020.igem.org/wiki/images/a/a9/T--Stuttgart--Ligation_of_pet22b.pdf#toolbar=0" width="100%" height="750"></iframe>>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="restrictionpet22b">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed btn-card" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                      Restriction digest of pET22b and modified laccase of S. <em>cyaneus</em>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwelve" class="collapse" aria-labelledby="restrictionpet22b" data-parent="#cloning">
+                  <div class="card-body">
+                    <iframe src="https://2020.igem.org/wiki/images/5/52/T--Stuttgart--Restriction_digest_of_pet22b.pdf#toolbar=0" width="100%" height="750"></iframe>>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<!--
+              <p>
+                <iframe src="https://2020.igem.org/wiki/images/4/4c/T--Stuttgart--Assembly_electrocompetent.pdf" width="100%" height="750"></iframe>
               </p>
               <p>
                 <iframe src="https://2020.igem.org/wiki/images/d/d7/T--Stuttgart--LB_Medium_for_E.coli.pdf#toolbar=0" width="100%" height="750"></iframe>
@@ -111,7 +243,7 @@
               <p>
                 <iframe src="https://2020.igem.org/wiki/images/c/cf/T--Stuttgart--SOC_Medium.pdf#toolbar=0" width="100%" height="750"></iframe>
               </p>
-            <h4>Generation of chemical competent cells</h4>-->
+-->
 
           </div>
         </div>
