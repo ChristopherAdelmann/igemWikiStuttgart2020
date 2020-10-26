@@ -56,9 +56,11 @@ improved immobilization conditions.
             </p>
           </div>
         </div>
-        <div id="item-2" class="col-md-10 section-content">
+        <div id="bricks" class="col-md-10 section-content">
           <div class="container-flex header-txt-container">
-            <h2>New BioBrick</h2>
+            <hr />
+            <h2>New BioBrick </h2>
+            <h5><a href="http://parts.igem.org/Part:BBa_K3379001">BBa_K3379001</a></h5>
             <p>
               We want to contribute another laccase to the iGEM-Biobricks. This one is derived from Streptomyces
 <em>cyaneus</em> and is not as well studied as the laccase of Trametes <em>versicolor</em>. It showed good potential
@@ -72,15 +74,30 @@ Pichia <em>pastoris</em>.
               We ordered the sequence from IDT and obtained a pET28a-plasmid by the IMB of the University of
 Stuttgart. After a XbaI and NotI digestion and subsequent ligation, the ligation product was
 transformed in competent DH5α-E <em>coli</em> cells. We screened for positive clones, isolated the pET28a-
-lac Sc vector and verified successful cloning via sequencing. The expression was performed in the E coli
+lac<sub>Sc</sub> vector and verified successful cloning via sequencing. The expression was performed in the E <em>coli</em>
 strain BL21. The resulting protein lysate showed good potential regarding stability and activity for our
 immobilization approach.
             </p>
+            <p>
+              This Biobrick is the DNA-sequence of the laccase of S <em>cyaneus</em>. In addition, there is a 6xhis-tag at the
+C-terminus of the sequence and a 6xlys-tag at the N-terminus of the protein. The his-tag should allow
+purification of the laccase while the lys-tag could possibly improve the immobilization process
+through providing free amino-groups.
+            </p>
+            <hr />
+            <h2>Improved BioBrick</h2>
+            <h5><a href="http://parts.igem.org/Part:BBa_K3379002">BBa_K3379002</a></h5>
+            <p>
+              It is an alteration of an already existing part. It´s a laccase of T. versicolor which was contributed
+by the iGEM-Team Stockholm 2018. We added a poly-lysine-tag at the C-terminus of the
+laccase sequence to investigate its influence on the immobilization process.
+            </p>
+            <hr />
           </div>
         </div>
-        <div id="item-3" class="col-md-10 section-content">
+        <div id="summary" class="col-md-10 section-content">
           <div class="container-flex header-txt-container">
-            <h2>Table</h2>
+            <h2>Summary</h2>
             <table class="table table-striped table-bordered">
 <thead class="thead-dark">
   <tr>
@@ -107,18 +124,36 @@ immobilization approach.
 </table>
           </div>
         </div>
-        <div id="item-4" class="col-md-10 section-content"></div>
-        <div id="item-5" class="col-md-10 section-content"></div>
+        <div id="item-4" class="col-md-10 section-content">
+          <div class="container-flex header-txt-container">
+            <h2>Literature</h2>
+            <ol>
+              <li>
+                Zhang, Y. et al. Application of eukaryotic and prokaryotic laccases in biosensor and
+biofuel cells: recent advances and electrochemical aspects. Appl. Microbiol. Biotechnol. 102,
+10409–10423 (2018).
+              </li>
+              <li>
+                Margot, J. et al. Bacterial versus fungal laccase: Potential for micropollutant
+degradation. AMB Express 3, 1–14 (2013)
+              </li>
+              <li>
+                Alharbi, S. et al. Degradation of diclofenac, trimethoprim, carbamazepine, and
+sulfamethoxazole by laccase from Trametes versicolor: Transformation products and toxicity
+of treated effluent. Biocatalysis and Biotransformation 37(6), 399-408 (2019)
+              </li>
+            </ol>
+          </div>
+        </div>
       </div>
     </section>
 
     <nav id="nav" class="d-none d-md-block position-fixed sidebar">
       <!-- Navigation Items Below Here -->
       <a href="abstract" class="list-group-item sidebar-item">Abstract</a>
-      <a href="#item-2" class="list-group-item sidebar-item">Testtitel</a>
-      <a href="#item-3" class="list-group-item sidebar-item">Testtitel</a>
-      <a href="#item-4" class="list-group-item sidebar-item">Testtitel</a>
-      <a href="#item-5" class="list-group-item sidebar-item">Testtitel</a>
+      <a href="#bricks" class="list-group-item sidebar-item">Biobricks</a>
+      <a href="summary" class="list-group-item sidebar-item">Summary</a>
+      <a href="#literature" class="list-group-item sidebar-item">Literature</a>
     </nav>
   </div>
 
