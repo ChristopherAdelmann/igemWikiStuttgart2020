@@ -185,8 +185,6 @@ font-family: 'Montserrat';
 }
 
 /*********** navbar ***********/
-.dropdown-item {}
-
 .navbar-img {
   height: 30px;
 }
@@ -205,6 +203,9 @@ font-family: 'Montserrat';
   padding-right: 20px;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.navbar-expand-lg {
   height: 60px;
 }
 
@@ -312,9 +313,36 @@ font-family: 'Montserrat';
 
 .descr-container {
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-/*********** BLANK ***********/
+/*********** home ***********/
+.logo-img {
+  width: 40%;
+  margin: 2% 0;
+}
+
+.team-header {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-family: "Comfortaa" !important;
+  font-size: 10vw !important;
+  text-align: center;
+  line-height: 1.2;
+  margin: 2% 0;
+  padding: 5%;
+}
+
+.home-header {
+  background-color: var(--color-medium-blue);
+  position: absolute;
+}
+
+.fish-one {
+  position: relative;
+  display: inline;
+}
+
 /*********** BLANK ***********/
 /*********** BLANK ***********/
 /*********** BLANK ***********/
