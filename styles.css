@@ -276,7 +276,14 @@ font-family: 'Montserrat';
 /*********** iFrame Dropdown ***********/
 .card {
   background-color: var(--color-medium-blue);
-  color: var(--color-dark);
+}
+
+.card-header {
+  color: red !important;
+}
+
+.btn-card {
+  color: red;
 }
 
 /*********** BLANK ***********/
