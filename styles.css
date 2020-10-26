@@ -37,6 +37,7 @@ h2 {
 }
 
 p {
+  text-align: justify !important;
   color: var(--color-dark);
   font-family: Verdana, Geneva, sans-serif !important;
   font-size: 1.2rem !important;
@@ -285,7 +286,25 @@ font-family: 'Montserrat';
   color: var(--color-dark);
 }
 
-/*********** BLANK ***********/
+/*********** img-descr ***********/
+.descr-txt {
+  font-size: 0.9rem !important;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--color-medium-blue);
+  color: var(--color-light)
+}
+
+.img-descr-container {
+  margin: 1% 0;
+}
+
+.descr-container {
+  margin-top: 15px;
+}
+
 /*********** BLANK ***********/
 /*********** BLANK ***********/
 /*********** BLANK ***********/
