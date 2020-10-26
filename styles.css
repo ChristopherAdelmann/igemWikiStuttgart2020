@@ -387,7 +387,7 @@ font-family: 'Montserrat';
 .home-txt-header {
   text-align: justify;
   color: var(--color-light);
-  font-size: 2.5rem !important;
+  font-size: 4vw !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
   font-family: "Comfortaa" !important;
@@ -397,7 +397,7 @@ font-family: 'Montserrat';
   text-align: justify;
   margin-top: 20px;
   color: var(--color-light);
-  font-size: 1.2rem !important;
+  font-size: 2vw !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
   font-family: "Comfortaa" !important;
@@ -587,6 +587,10 @@ font-family: 'Montserrat';
   100% {
     background-position: 50% 0%
   }
+}
+
+.img-result {
+  border-radius: 15px;
 }
 
 /*********** BLANK ***********/
