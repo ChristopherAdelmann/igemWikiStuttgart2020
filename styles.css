@@ -37,18 +37,22 @@ h2 {
 }
 
 p {
-  text-align: justify !important;
   color: var(--color-dark);
   font-family: Verdana, Geneva, sans-serif !important;
   font-size: 1.2rem !important;
   font-style: normal !important;
+  text-align: justify !important;
+}
+
+a:visited {
+  color: inherit !important;
 }
 
 hr {
-  color: var(--color-light) !important;
   background-color: transparent;
   border: solid var(--color-light-green) 2px;
   border-bottom: none;
+  color: var(--color-light) !important;
 }
 
 .xsmall-p {
@@ -100,9 +104,9 @@ hr {
 }
 
 .test-container {
-  width: 100%;
-  height: 5000px;
   background-color: red;
+  height: 5000px;
+  width: 100%;
 }
 
 .txt-light {
@@ -115,39 +119,14 @@ hr {
 
 /*********** FONTS ***********/
 @font-face {
-  src: url('https://2020.igem.org/wiki/images/0/00/T--Stuttgart--montserrat-v15-latin-italic.eot');
-  src: local('Montserrat RegularItalic'), local('Montserrat-RegularItalic'),
-    url('https://2020.igem.org/wiki/images/0/00/T--Stuttgart--montserrat-v15-latin-italic.eot') format('embedded-opentype'),
-    url('https://2020.igem.org/wiki/images/8/8e/T--Stuttgart--montserrat-v15-latin-italic.woff') format('woff'),
-    url('https://2020.igem.org/wiki/images/f/f0/T--Stuttgart--montserrat-v15-latin-italic.ttf') format('truetype'),
-    url('https://2020.igem.org/wiki/images/7/75/T--Stuttgart--montserrat-v15-latin-italic.svg') format('svg');
-  font-family: 'Montserrat-Italic';
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  src: url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot');
-  src: local('Montserrat Regular'), local('Montserrat-Regular'),
-    url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot') format('embedded-opentype'),
-    url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff') format('woff'),
-    url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf') format('truetype'),
-    url('https://2020.igem.org/File:T--UGent_Belgium--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg') format('svg');
-  '),
-font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
   src: url('https://2020.igem.org/wiki/images/b/ba/T--Stuttgart--comfortaa-v29-latin-700.eot');
   src: local('Comfortaa Bold'), local('Comfortaa-Bold'),
     url('https://2020.igem.org/wiki/images/b/ba/T--Stuttgart--comfortaa-v29-latin-700.eot') format('embedded-opentype'),
     url('https://2020.igem.org/wiki/images/0/02/T--Stuttgart--comfortaa-v29-latin-700.woff') format('woff'),
     url('https://2020.igem.org/wiki/images/c/cd/T--Stuttgart--comfortaa-v29-latin-700.svg') format('svg');
+  font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 700;
-  font-family: 'Comfortaa';
 }
 
 /*********** txt-img-highlight ***********/
@@ -177,11 +156,11 @@ font-family: 'Montserrat';
 }
 
 .img-std {
-  max-height: 100%;
-  max-width: 100%;
   border: 4px solid var(--color-medium-blue);
   border-radius: 10px;
   box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /*********** navbar ***********/
@@ -198,11 +177,11 @@ font-family: 'Montserrat';
   background-color: var(--color-dark);
   border-radius: 50px;
   box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 #navbar-wrapper {
@@ -293,14 +272,14 @@ font-family: 'Montserrat';
 
 /*********** img-descr ***********/
 .descr-txt {
+  background-color: var(--color-medium-blue);
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  color: var(--color-light);
   font-size: 0.9rem !important;
-  width: 80%;
   margin: auto;
   padding: 10px;
-  border-radius: 15px;
-  background-color: var(--color-medium-blue);
-  color: var(--color-light);
-  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  width: 80%;
 }
 
 .img-descr-container {
@@ -308,14 +287,14 @@ font-family: 'Montserrat';
 }
 
 .descr-container {
-  margin-top: 15px;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 /*********** home ***********/
 .logo-img {
-  width: 40%;
   margin: 2% 0;
+  width: 40%;
 }
 
 .team-header {
@@ -323,10 +302,10 @@ font-family: 'Montserrat';
   color: var(--color-light);
   font-family: "Comfortaa" !important;
   font-size: 10vw !important;
-  text-align: center;
   line-height: 1.2;
   margin-top: 2%;
   padding: 5%;
+  text-align: center;
 }
 
 .home-header {
@@ -335,77 +314,77 @@ font-family: 'Montserrat';
 }
 
 .fish-one {
-  width: 20vw;
+  left: 15%;
   position: absolute;
   top: 10%;
-  left: 15%;
+  width: 20vw;
 }
 
 .fish-two {
-  width: 25vw;
   position: absolute;
-  top: 35%;
   right: 20%;
+  top: 35%;
+  width: 25vw;
 }
 
 .fish-three {
-  width: 30vw;
+  left: -5%;
   position: absolute;
   top: 30%;
-  left: -5%;
   transform: scaleX(-1) rotate(20deg);
+  width: 30vw;
 }
 
 .fish-four {
-  width: 30vw;
   position: absolute;
-  top: 15%;
   right: -10%;
+  top: 15%;
   transform: scaleX(-1) rotate(30deg);
+  width: 30vw;
 }
 
 .fish-five {
-  width: 30vw;
   position: absolute;
-  top: 50%;
   right: -20%;
+  top: 50%;
   transform: rotate(40deg);
+  width: 30vw;
 }
 
 .home-content {
-  margin: 5% 10%;
   display: absolute;
+  margin: 5% 10%;
 }
 
 .home-txt {
-  padding: 20px;
-  border-radius: 15px;
   background-color: var(--color-medium-blue);
+  border-radius: 15px;
   box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  padding: 20px;
 }
 
 .home-txt-header {
-  text-align: justify;
   color: var(--color-light);
+  font-family: "Comfortaa" !important;
   font-size: 4vw !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
-  font-family: "Comfortaa" !important;
+  text-align: justify;
 }
 
 .home-txt-paragraph {
-  text-align: justify;
-  margin-top: 20px;
   color: var(--color-light);
+  font-family: "Comfortaa" !important;
   font-size: 2vw !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
-  font-family: "Comfortaa" !important;
+  margin-top: 20px;
+  text-align: justify;
 }
 
 .img-home {
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 .home-row {
@@ -413,59 +392,59 @@ font-family: 'Montserrat';
 }
 
 .home-med-box {
-  width: 10vw;
-  position: relative;
-  left: 35%;
   bottom: 20px;
+  left: 35%;
+  position: relative;
   transform: rotate(20deg);
+  width: 10vw;
 }
 
 .home-med-liq {
-  width: 10vw;
+  bottom: 20px;
   position: relative;
   right: 15%;
-  bottom: 20px;
   transform: rotate(-10deg);
+  width: 10vw;
 }
 
 .home-map {
-  width: 15vw;
-  position: relative;
-  left: 10%;
   bottom: 20px;
+  left: 10%;
+  position: relative;
   transform: rotate(5deg);
+  width: 15vw;
 }
 
 .home-hand {
-  width: 20vw;
-  position: relative;
-  left: 80%;
   bottom: 20px;
+  left: 80%;
+  position: relative;
+  width: 20vw;
 }
 
 .home-lab {
-  width: 30vw;
-  position: relative;
-  left: 40%;
-  display: inline;
   bottom: 20px;
+  display: inline;
+  left: 40%;
+  position: relative;
+  width: 30vw;
 }
 
 .home-pill {
-  width: 10vw;
-  position: relative;
-  left: 60%;
   bottom: 20px;
+  left: 60%;
+  position: relative;
   transform: rotate(5deg);
+  width: 10vw;
 }
 
 .css-selector {
-  background: linear-gradient(180deg, #cce2f8, #90e5c4);
-  background-size: 400% 400%;
   -webkit-animation: AnimationName 13s ease infinite;
   -moz-animation: AnimationName 13s ease infinite;
   -o-animation: AnimationName 13s ease infinite;
   animation: AnimationName 13s ease infinite;
+  background: linear-gradient(180deg, #cce2f8, #90e5c4);
+  background-size: 400% 400%;
 }
 
 @-webkit-keyframes AnimationName {
@@ -525,12 +504,12 @@ font-family: 'Montserrat';
 }
 
 .header-animation {
-  background: linear-gradient(180deg, #308ce1, #cce2f8);
-  background-size: 400% 400%;
   -webkit-animation: WaterAnimate 21s ease infinite;
   -moz-animation: WaterAnimate 21s ease infinite;
   -o-animation: WaterAnimate 21s ease infinite;
   animation: WaterAnimate 21s ease infinite;
+  background: linear-gradient(180deg, #308ce1, #cce2f8);
+  background-size: 400% 400%;
 }
 
 @-webkit-keyframes WaterAnimate {
@@ -595,50 +574,50 @@ font-family: 'Montserrat';
 
 /*********** footer ***********/
 .footer {
-  width: 100%;
   background-color: var(--color-dark);
+  width: 100%;
 }
 
 .footer-row {
-  justify-content: center;
   display: flex;
+  justify-content: center;
 }
 
 .footer-txt {
-  text-align: center;
+  border-radius: 15px;
+  color: var(--color-light);
   font-family: Verdana, Geneva, sans-serif !important;
   font-size: 0.8rem;
-  color: var(--color-light);
-  padding: 1%;
   margin-bottom: 2%;
-  border-radius: 15px;
+  padding: 1%;
+  text-align: center;
 }
 
 .footer-item {
-  width: 4vw;
   height: 4vw;
+  width: 4vw;
 }
 
 .item-circle:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2);
   border-color: var(--color-highlight);
+  transform: scale(1.2);
 }
 
 .footer-item-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 8.5vw;
+  display: flex;
   height: 8.5vw;
+  justify-content: center;
   margin: 20px;
+  width: 8.5vw;
 }
 
 .item-circle {
-  border-radius: 100%;
-  border: 4px solid var(--color-light-blue);
   background-color: var(--color-light);
+  border: 4px solid var(--color-light-blue);
+  border-radius: 100%;
   padding: 10px;
 }
 
