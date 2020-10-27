@@ -44,8 +44,16 @@ p {
   text-align: justify !important;
 }
 
+a:hover {
+  color: #214F4B;
+}
+
 a:visited {
-  color: inherit !important;
+  color: #214F4B;
+}
+
+a {
+  color: #16C172;
 }
 
 hr {
@@ -115,6 +123,12 @@ hr {
 
 .margin-md {
   margin: 5%;
+}
+
+.img-resize {
+  height: auto;
+  object-fit: contain;
+  width: 88%;
 }
 
 /*********** FONTS ***********/
@@ -248,15 +262,15 @@ ul.navbar-nav li.active a.nav-link {
 }
 
 .sidebar-item:hover {
-  color: var(--color-light-green);
+  color: #16C172;
   font-size: 1.3rem;
 }
 
 .sidebar-item {
-  background: var(--color-light-green);
+  background: #16C172;
   border: none;
   border-radius: 100%;
-  color: var(--color-light-green);
+  color: #16C172;
   display: block;
   font-family: "Comfortaa";
   height: 20px;
@@ -270,12 +284,12 @@ ul.navbar-nav li.active a.nav-link {
 }
 
 .sidebar-item.active {
-  background: var(--color-medium-green);
-  color: var(--color-medium-green);
+  background: #214F4B;
+  color: #214F4B;
 }
 
 .sidebar-item:visited {
-  color: var(--color-light-green);
+  color: #16C172;
 }
 
 /*********** iFrame Dropdown ***********/
@@ -305,7 +319,7 @@ ul.navbar-nav li.active a.nav-link {
   font-size: 0.9rem !important;
   margin: auto;
   padding: 10px;
-  width: 80%;
+  width: 60%;
 }
 
 .img-descr-container {
