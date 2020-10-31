@@ -744,5 +744,6 @@ ul.navbar-nav li.active a.nav-link {
 
 /*********** Collaboration ***********/
 .carousel-container {
-  margin: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
 }
