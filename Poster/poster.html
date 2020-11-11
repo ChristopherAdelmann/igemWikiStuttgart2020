@@ -1,67 +1,557 @@
-<html lang="en" dir="ltr">
+  <!--
+https://2020.igem.org/wiki/images/b/b9/T--Stuttgart--Poster_Acknol_Sponsors.png
+https://2020.igem.org/wiki/images/b/bb/T--Stuttgart--Poster_Achievements.png
+https://2020.igem.org/wiki/images/f/f2/T--Stuttgart--Poster_Intro.png
+https://2020.igem.org/wiki/images/3/30/T--Stuttgart--Poster_Methology.png
+https://2020.igem.org/wiki/images/8/8d/T--Stuttgart--Poster_PR.png
+https://2020.igem.org/wiki/images/d/db/T--Stuttgart--Poster_Project_Goal.png
+https://2020.igem.org/wiki/images/0/01/T--Stuttgart--Poster_Dry_Lab.png
+https://2020.igem.org/wiki/images/a/ac/T--Stuttgart--Poster_Wet_Lab.png
+ -->
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-</head>
-
-<body>
+  {{Poster}}
+<html>
 
 
-  <style>
-    .poster-wrapper {
-      margin: 1% 2%;
-    }
-  </style>
+<style>
+   hr {
+     margin: 2% 0;
+   }
 
-  <div class="row">
+   .poster-wrapper {
+     margin: 1% 2%;
+   }
 
-    <div class="section full first_text" id="header">
+   .block-txt {
+     text-align: justify;
+   }
 
-      <img src="https://2020.igem.org/wiki/images/2/20/T--Stuttgart--Poster_Header.png" alt="Header">
+   .graph-wrapper {
+     margin: 1% 0;
+     padding: 2%;
+     border: 2px solid;
+     border-radius: 30px;
+   }
 
-      <div class="info">
+   .graph-descr {
+     color: white;
+   }
 
-        <div class="title">
-          Lac Man – Team Stuttgart 2020
-        </div>
+   .descr-wrapper {
+     background-color: black;
+     color: white;
+     border-radius: 15px;
+     margin-bottom: 40px;
+     padding: 10px;
+   }
 
-        <div class="text">
-          <b>We are developing LAC-MAN the effective water filter to counter drug residues in wastewater.</b>
-          <hr>
-          <b><u>Poster presented by:</u></b>
-          <br>
-          <sup>0</sup>Christopher Adelmann, <sup>0</sup>Franziska Welsch, <sup>1</sup>Sebastian Brockmann, <sup>1</sup>Carol Hanna, <sup>1</sup>Nikolai Herdrich, <sup>1</sup>Samuel Kienzle, <sup>1</sup>Fabian Klötzer, <sup>1</sup>Fiona Kühnel,
-          <sup>1</sup>Ann-Kathrin Löffler, <sup>1</sup>Erik Müller, <sup>1</sup>Helena Nowack, <sup>1</sup>Jan Schlegel, <sup>1</sup>Fabio Schmidberger, <sup>1</sup>Elena Stehle, <sup>2</sup>Michael Heymann, <sup>2</sup>Martin Siemann-Herzberg,
-          <sup>2</sup>Björn Voss
-          <br>
-          <br>
-          <sup>0</sup>iGEM Student Team Leader, <sup>1</sup>iGEM Student Team Member, <sup>2</sup>iGEM Team PIs
-          <br>
-          <br>
-          Faculty sponsor: Institute of Biochemical Engineering, University of Stuttgart, Stuttgart, Germany
-          <br>
-          <br>
-          <b><u>Poster contents by:</u></b>
-          <br>
-          Samuel Kienzle, Elena Stehle
-          <br>
-          <br>
-          <b><u>Poster design by:</u></b>
-          <br>
-          Christopher Adelmann, Ann-Kathrin Löffler
-          <hr>
-          <b><u>Abstract:</u></b>
-          <br>
-          Our project LAC-MAN focuses on water purification from the pharmaceuticals diclofenac (pain relievers) and carbamazepine (antiepileptic) using laccases. These substances still cannot be filtered out of the wastewater completely. The laccases, a class of enzymes able to degrade numerous pollutants, are immobilized to a mesoporous silica foam, making them long-term sustainable and more pH- and thermostable. Silica-based materials are well suited because they are environmentally friendly, biocompatible, and resistant to organic solvents and microbial attacks. Because the enzymes are bound to a matrix via our innovative poly-lysine tag, no genetically modified organisms are released into the environment. Besides, the degradation products have no negative effects on nature anymore. We were able to express the laccase of  <em>S. cyaneus</em> and to synthesize the silica foam. Furthermore, we were able to predict the substrate conversion rate regarding the amount of immobilized laccases via a kinetic model according to Michaelis-Menten.
-        </div>
+   .graph {
+     margin-top: 15px;
+   }
+ </style>
 
+
+
+<!---Place the content of your poster inside this div--->
+<div class="poster_w content">
+
+ <!--First Row --->
+ <div class="row">
+
+   <div class="section full first_text" id="header">
+
+     <img src="https://2020.igem.org/wiki/images/2/20/T--Stuttgart--Poster_Header.png" alt="Header">
+
+     <div class="info">
+
+       <div class="title">
+         Lac Man – Team Stuttgart 2020
+       </div>
+
+       <div class="text">
+         <b>We are developing LAC-MAN the effective water filter to counter drug residues in wastewater.</b>
+         <hr>
+         <b><u>Poster presented by:</u></b>
+         <br>
+         <sup>0</sup>Christopher Adelmann, <sup>0</sup>Franziska Welsch, <sup>1</sup>Sebastian Brockmann, <sup>1</sup>Carol Hanna, <sup>1</sup>Nikolai Herdrich, <sup>1</sup>Samuel Kienzle, <sup>1</sup>Fabian Klötzer, <sup>1</sup>Fiona Kühnel,
+         <sup>1</sup>Ann-Kathrin Löffler, <sup>1</sup>Erik Müller, <sup>1</sup>Helena Nowack, <sup>1</sup>Jan Schlegel, <sup>1</sup>Fabio Schmidberger, <sup>1</sup>Elena Stehle, <sup>2</sup>Michael Heymann, <sup>2</sup>Martin Siemann-Herzberg,
+         <sup>2</sup>Björn Voss
+         <br>
+         <br>
+         <sup>0</sup>iGEM Student Team Leader, <sup>1</sup>iGEM Student Team Member, <sup>2</sup>iGEM Team PIs
+         <br>
+         <br>
+         Faculty sponsor: Institute of Biochemical Engineering, University of Stuttgart, Stuttgart, Germany
+         <br>
+         <br>
+         <b><u>Poster contents by:</u></b>
+         <br>
+         Samuel Kienzle, Elena Stehle
+         <br>
+         <br>
+         <b><u>Poster design by:</u></b>
+         <br>
+         Christopher Adelmann, Ann-Kathrin Löffler
+         <hr>
+         <b><u>Abstract:</u></b>
+         <br>
+         <p class="block-txt">
+           Our project LAC-MAN focuses on water purification from the pharmaceuticals diclofenac (pain relievers) and carbamazepine (antiepileptic) using laccases. These substances still cannot be filtered out of the wastewater completely. The
+           laccases, a class of enzymes able to degrade numerous pollutants, are immobilized to a mesoporous silica foam, making them long-term sustainable and more pH- and thermostable. Silica-based materials are well suited because they are
+           environmentally friendly, biocompatible, and resistant to organic solvents and microbial attacks. Because the enzymes are bound to a matrix via our innovative poly-lysine tag, no genetically modified organisms are released into the
+           environment. Besides, the degradation products have no negative effects on nature anymore. We were able to express the laccase of <em>S. cyaneus</em> and to synthesize the silica foam. Furthermore, we were able to predict the
+           substrate
+           conversion rate regarding the amount of immobilized laccases via a kinetic model according to Michaelis-Menten.
+         </p>
+       </div>
+
+     </div>
+
+   </div>
+
+ </div>
+
+
+ <!--Second Row --->
+
+ <div class="row">
+
+   <div class="section third" id="project-goal">
+
+     <img src="https://2020.igem.org/wiki/images/d/db/T--Stuttgart--Poster_Project_Goal.png" alt="Project Goal">
+
+     <div class="info">
+
+       <div class="title">
+         Project Goal
+       </div>
+
+       <div class="text">
+         <b class="block-txt">We focus on water purification using laccases. Pharmaceuticals containing aromatic ring structures (e.g. diclofenac or carbamazepine) can not be completely removed from wastewater. Many of these substances pose a
+           threat
+           to the ecosystem. Here we want to establish the basis for the elimination of various ecotoxic substances in wastewater using our optimized laccase filters. </b>
+         <hr>
+         <p class="block-txt">Water is the basis of all life on our planet. Whether it is plants, animals, humans or microorganisms, we all depend on it for our survival. Scarcity and purity of water cause conflicts worldwide. Especially water
+           pollution caused by drugs like antibiotics is an emerging problem in industrialized countries. For this reason, the EU Parliament adopted a directive in 2013 on the continuous analysis of water within the Union<sup>1</sup>. This
+           so-called "watch
+           list" was first evaluated by the Joint Research Centre in 2018<sup>2</sup>. The watch list contains potentially dangerous substances for humans and the environment, such as antibiotics and diclofenac (painkillers). Especially
+           diclofenac, a
+           non-steroidal anti-inflammatory drug typically used for acute and chronic joint inflammation, rheumatism and sports injuries exceeds the recommended guide values in the majority of measuring stations. We therefore chose diclofenac,
+           EE2
+           and carbamazepine as our two main substrates for degradation. Many of these molecules share common properties. Examples are the aromatic ring structure and its effect as endocrine disruptors (e.g. EE2) and/or the toxicity of these
+           compounds (e.g. diclofenac, carbamazepine), which constitute the potential risk to humans and animals<sup>3</sup>. In addition, we want to address the frequently arising problem of long-term enzymes activity and improve the used
+           immobilization
+           method. Of particular interest was the preservation of enzyme activity after immobilization and the increase of the immobilization efficiency.</p>
+         <hr>
+         <ol>
+           <li>„RICHTLINIE 2013/39/EU DES EUROPÄISCHEN PARLAMENTS UND DES RATES,“ 2013.</li>
+           <li>D. M. I. S. D. N. a. T. L. Robert Loos, „Review of the 1st Watch List under the Water Framework Directivend and recommendations for the 2 Watch List,“ Publications Office of the European Union, Luxembourg, 2018.</li>
+           <li>P. G. P. G. Benoıt Ferrari, “Ecotoxicological impact of pharmaceuticals found in treated wastewaters: study of carbamazepine, clofibric acid, and diclofenac”, Ecotoxicology and Environmental Safety, vol. 55, 2003.</li>
+         </ol>
+       </div>
+
+     </div>
+
+   </div>
+
+   <div class="section two_thirds" id="intro">
+
+     <img src="https://2020.igem.org/wiki/images/f/f2/T--Stuttgart--Poster_Intro.png" alt="Introduction and Inspiration">
+
+     <div class="info">
+
+       <div class="title">
+         Introduction and Inspiration
+       </div>
+
+       <div class="text">
+         <b class="block-txt">The laccases, a class of enzymes capable of degrading numerous pollutants, are immobilized onto a mesoporous silica foam. This leads to more durability in the long term and a higher pH and thermostability.</b>
+         <hr>
+         <b> <u>Laccase:</u> </b>
+         <br>
+         <p class="block-txt">
+           Aromatic ring structures serve as potential targets for these enzymes which have been identified within various fungi and bacteria. Laccases oxidize phenol groups, which converts the substrate oxygen into a radical. At the same
+           time,
+           the free oxygen is reduced to water. The degradation products formed here have no negative effects on humans or the environment4. Our aim was to improve the stability of these enzymes and to neutralize a variety of pollutants. This
+           is
+           possible because of the diverse substrat spectrum of our selected laccases T. versicolor and S. cyaneus.
+         </p>
+         <br>
+         <br>
+         <b> <u>Immobilization:</u> </b>
+         <p class="block-txt">Immobilization with a mesoporous silica foam is suitable for long-term preservation of the laccases<sup>2,3</sup>. Silica-based materials are well suited because they are environmentally friendly, biocompatible and
+           above
+           all resistant to organic solvents and microbial attack. The immobilized enzymes have a up to 18 times longer half-life<sup>4</sup>. The enzymes used are firmly bound to the matrix and therefore do not need to be filtered out of the
+           wastewater again. This process also
+           has the advantage that no genetically modified organisms can enter the environment. To reduce enzyme activity loss in the process of immobilization we came up with the idea to add a poly-lysine tag at the c-terminus of the laccase. This
+           should reduce the immobilization rate near the active site and the structure of the laccase would remain almost unchanged, similar to the free enzyme.</p>
+           <br>
+           <img src="https://2020.igem.org/wiki/images/e/e5/T--Stuttgart--Poster_Schema.png" alt="Scheme of the Project">
+        <hr>
+         <ol>
+           <li>M. H. J. S. K. P. P. R. S. R. M. Y. Palanivel Sathishkumar, „Laccase mediated diclofenac trans- formation and cytotoxicity assessment on mouse fibroblast 3T3-L1 preadipocytes,“ RSC Adv., vol.4, 2014.</li>
+           <li>M. u. F. M. Dreifke, „Immobilisierung von Enzymen: Spielerei oder biotechnologischer Fortschritt?,“ Biospektrum (2017) 23: 95., no. https://doi.org/10.1007/s12268-017-0769-5, 2017.</li>
+           <li>A. F.-G. K. S.-C. I. N. T. J. Jakub Zdarta, „Mesostructured cellular foam silica materials for laccase immobilization and tetracycline removal: A comprehensive study,“ Microporous and Mesoporous Materials, vol. 291, 2020.</li>
+           <li>Patel, S. K. S., Kalia, V. C., Choi, J. H., Haw, J. R., Kim, I. W., & Lee, J. K., „Immobilization of laccase on SiO2 nanocarriers improves its stability and reusability“, Journal of Microbiology and Biotechnology, 24(5),
+             639–647.https://doi.org/10.4014/jmb.1401.01025, 2014.</li>
+         </ol>
+       </div>
+
+     </div>
+
+   </div>
+ </div>
+
+ <!-- Third row -->
+<div class="row">
+
+  <div class="section full" id="Methodology">
+
+    <img src="https://2020.igem.org/wiki/images/3/30/T--Stuttgart--Poster_Methology.png" alt="Methodology">
+
+    <div class="info">
+
+      <div class="title">
+        Methodology
+      </div>
+
+      <div class="text">
+        <img src="https://2020.igem.org/wiki/images/7/7f/T--Stuttgart--Poster_Methology_Scheme.png" alt="Methods Scheme">
+
+        <p class="block-txt">The laccase genes of S.cyaneus and T.versicolor were cloned into the vectors pBAD and pPICZα via the cloning strain E. coli DH5α. Expression of the laccases was performed in the eukaryotic host P. pastoris X33 for T.versicolor and in E. coli BL21(DE3) for S.cyaneus. After cell lysis by French press the proteins could be purified from the crude extract using Ni-NTA beads. The laccase activity was analyzed for pH and temperature optimums using the ABTS assays. Simultaneously a silica foam was synthesized in which the laccases were immobilized to improve the enzymes stability. The degradation of the target substrates Diclofenac and Carbamazepine by the laccases was monitored using a reverse phase UHPLC column. In a next step the ability of the immobilized enzyme to degrade the above-mentioned substrates could be tested as well.</p>
       </div>
 
     </div>
 
   </div>
 
-</body>
+</div>
+
+<!-- Fourth row -->
+
+<div class="row">
+
+  <div class="section half" id="dry-lab">
+
+    <img src="https://2020.igem.org/wiki/images/0/01/T--Stuttgart--Poster_Dry_Lab.png" alt="Dry Lab">
+
+    <div class="info">
+
+      <div class="title">
+        Dry Lab
+      </div>
+
+      <div class="text">
+        <div class="graph-wrapper">
+          <div class="descr-wrapper">
+            <b class="graph-descr">Kinetic model of the filter unit which allows for adjustment of the substrate concentration and the amount of laccase used for degradation.</b>
+          </div>
+          <img src="https://2020.igem.org/wiki/images/1/1b/T--Stuttgart--Poster_DryLab-Scheme.png" alt="Kinetic flow scheme" class="graph">
+        </div>
+        <p class="block-txt">Our model is based on the Michaelis-Menten kinetic law. The required parameters v<sub>max</sub> , K<sub>M</sub>, and k<sub>cat</sub> were determined experimentally and obtained from the literature for the substrate ABTS.<sup>1</sup> The transition from a batch approach to a continuous system was reached by the implementation of an influx and an efflux. The influx contains the substrate (water pollutants) with a given concentration, and the efflux contains both undegraded and degraded substrate. Flow rates (F<sub>in</sub> and F<sub>out</sub>) can be easily adjusted towards the desired application. Thereby, the amount of laccase degraded substrate and the flow-through undegraded substrate can be determined.</p>
+        <br>
+        <p class="block-txt">Since our laccases are immobilized inside a mesocellular silica foam (MCF), the diffusion and flow conditions are complex and dependent on the size of the foam particles and their pore diameters. To simulate the flow conditions and concentration gradients in the foam, we split up the reaction volume into 20 successive compartments with individual substrate and product concentrations. We found 20 to be a limit value of compartments, over which more compartments would make no more difference in the kinetic behavior of the model. The laccase is equally distributed over all compartments. We decided to give the foam a total fixed volume of 1 liter and therefore 0.05l per compartment.</p>
+        <div class="graph-wrapper">
+          <div class="descr-wrapper">
+            <b class="graph-descr">With a laccase concentration of 3∙10<sup>-3</sup>M there is full substrate degradation for the first 3 days and still 85% substrate degradation after 8 days.</b>
+          </div>
+          <img src="https://2020.igem.org/wiki/images/4/46/T--Stuttgart--Poster_DryLab-Result.png" alt="Kinetic model results" class="graph">
+        </div>
+        <p class="block-txt">Exemplary, the model was applied to the wastewater treatment plant in Stuttgart Plieningen. The first step is to collect environmental conditions for the specific system. The average dry-weather influx for the wastewater treatment plant in Plieningen is 175l/s, an average water temperature of 17°C, an average pH-value of 6, around 20mM salt concentration, and a substrate concentration of Diclofenac of 1.33∙10<sup>-6</sup> M.<sup>2</sup> With this input values and almost no laccase (3∙10<sup>-8</sup>M), the undegraded substrate (red) stays at the initial substrate concentration over the whole simulation time while there is no degraded substrate (green).</p>
+        <hr>
+        <ol>
+          <li>Frasconi, M., Favero, G., Boer, H., Koivula, A. & Mazzei, F. Kinetic and biochemical properties of high and low redox potential laccases from fungal and plant origin. Biochim. Biophys. Acta - Proteins Proteomics 1804, 899–908 (2010).</li>
+          <li>Loos, R., Marinov, D., Sanseverino, I., Napierska, D. & Lettieri, T. Directive 2008/105/EC, amended by Directive 2013/39/EU. (2018).</li>
+        </ol>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="section half" id="wet-lab">
+
+    <img src="https://2020.igem.org/wiki/images/a/ac/T--Stuttgart--Poster_Wet_Lab.png" alt="Wet Lab">
+
+    <div class="info">
+      <div class="title">
+        Wet Lab
+      </div>
+
+      <div class="text">
+        <div class="graph-wrapper">
+          <div class="descr-wrapper">
+            <b class="graph-descr">Experimental determination of kinetic parameters v<sub>max</sub> and K<sub>M</sub> for S.cyaneus which were used for the modelling:</b>
+            <br>
+            <ul>
+              <li>v<sub>max</sub> [µM/s] = 0.368</li>
+              <li>K<sub>M</sub> [µM] = 46.481</li>
+            </ul>
+          </div>
+          <img src="https://2020.igem.org/wiki/images/e/ec/T--Stuttgart--Poster_WetLab-HWPlot.png" alt="Hanes Woolf Plot of Experimental degredation results" class="graph">
+        </div>
+        <p class="block-txt">Laccase activity of cell lysate was measured at 9 different substrate concentrations. The Hanes-Woolf-Plot provides a graphical method for analysis of the Michaelis-Menten equation. It was used to determine the kinetic parameters V<sub>max</sub> and K<sub>M</sub> and calculate the concentration of the laccase (LSc) after the expression (1,06 mg(LSc)/mL).</p>
+        <hr>
+        <div class="graph-wrapper">
+          <div class="descr-wrapper">
+            <b class="graph-descr">pH stability assays for the laccase of S. cyaneus using ABTS as a sample substrate with the highest activity at pH 6 and the greatest stability at pH 4.</b>
+          </div>
+          <img src="https://2020.igem.org/wiki/images/3/3d/T--Stuttgart--Poster_WetLab-Results1.png" alt="pH stability results" class="graph">
+          <img src="https://2020.igem.org/wiki/images/0/03/T--Stuttgart--Poster_WetLab-Results2.png" alt="pH stability results" class="graph">
+        </div>
+        <p class="block-txt">On the basis of this calculation we could determine that pH 4 showed the lowest decrease in activity with only 56.8 % after four days. On the contrary, the measurements with pH 6 and pH 7 showed a decrease higher than 90%. With this assay, we could successfully demonstrate and confirm, that the laccase S.cyaneus showed the highest stability in the environment of pH 4. The gained information could then be used for further research of our laccase S.cyaneus.</p>
+        <div class="graph-wrapper">
+          <div class="descr-wrapper">
+            <b class="graph-descr">Diclofenac degradation assay using the laccase of S. cyaneus over a time period of 3 days achieving a maximum degradation of 58±3% of the 100 µM starting concentration.</b>
+          </div>
+          <img src="https://2020.igem.org/wiki/images/6/61/T--Stuttgart--Poster_DCF_Assay.png" alt="Results of the Diclofenac degredation assay" class="graph">
+        </div>
+        <p class="block-txt">All measurements were performed using liquid chromatography. The 100 µM starting concentration of DCF in the assay was defined as 100 % and all the other measurements were set relative to the respective starting concentration. The stability of DCF was already demonstrated under the assay conditions over a period of 3 days in previous experiments as well as in literature.<sup>1</sup> </p>
+        <br>
+        <p class="block-txt">At pH 4, 42 ± 7 % of the starting DCF concentration was still detectable in comparison to 63 ± 8% at pH 5. After 24 and 48hrs no real difference in degradation can be determined due to the high standard derivations in the assay. In our assay the degradation was most efficient at pH 4.</p>
+        <hr>
+        <ol>
+          <li>Margot J, Bennati-Granier C, Maillard J, Blánquez P, Barry DA, Holliger C. Bacterial versus fungal laccase: potential for micropollutant degradation. AMB Express. 2013 Oct 24;3(1):63. doi: 10.1186/2191-0855-3-63. PMID: 24152339; PMCID: PMC3819643.</li>
+        </ol>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</div>
+
+<!-- fifth row -->
+
+<div class="row">
+
+  <div class="section half" id="Achievements">
+
+    <img src="https://2020.igem.org/wiki/images/b/bb/T--Stuttgart--Poster_Achievements.png" alt="Achievements and Aplication">
+
+    <div class="info">
+
+      <div class="title">
+        Achievements and Application
+      </div>
+
+      <div class="text">
+        <b>
+          <ul>
+            <li>Succesfull Expression of the laccase of S. cyaneus and synthesis of the silica foam.</li>
+            <li>Prediction of the substrate conversion rate in regard to the amount of immobilized laccases via a kinetic model according to Michaelis-Menten.</li>
+            <li>Foundation for future enzyme immobilization with our silica foam.</li>
+            <li>Degredation of Diclofenac by Laccase of S.cyaneus.</li>
+            <li>Theoretic implementation of improved enzyme immobilization.</li>
+          </ul>
+        </b>
+        <hr>
+        <div class="subsection half">
+          <img src="https://2020.igem.org/wiki/images/4/41/T--Stuttgart--Poster_Industry.png">
+        </div>
+        <div class="subsection half">
+          <img src="https://2020.igem.org/wiki/images/e/e4/T--Stuttgart--Poster_Hospital.png">
+        </div>
+        <div class="clear"></div>
+        <p class="block-txt">Our mesoporous silica foam with the immobilized laccases could be implemented in wastewater treatment plants, wastewater from pharmaceutical companies, swimming pools and hospitals.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="section half" id="PR">
+
+    <img src="https://2020.igem.org/wiki/images/8/8d/T--Stuttgart--Poster_PR.png" alt="Public relations">
+
+    <div class="info">
+
+      <div class="title">
+        Public relations
+      </div>
+
+      <div class="text">
+        <hr>
+        <b> <u>Expert interviews:</u> </b>
+        <p class="block-txt">We conducted interviews with two experts at the institute for Sanitary Engineering, Water Quality and Solid Wastemanagement at the University of Stuttgart. They helped us to identify potential difficulties we would face with our project in the Lab as well as for the implementation in a wastewater treatment plant. Furthermore, they raised our awareness especially about the degradation products of our laccases and showed us possible ways to estimate their toxicity. Overall both showed great enthusiasm towards our project and were curious to see our idea develop.</p>
+        <hr>
+        <b> <u>Podium discussion:</u> </b>
+        <p class="block-txt">With our digital podium discussion, which was streamed live on Twitch, we wanted to raise awareness of the benefits that synthetic biology could bring to wastewater treatment and the environment in general. For this purpose, we teamed up witch the iGEM - team of the TU Kaiserslautern and invited an expert in environmental science. Christian Kaiser, an author of the initiative for a progressive turnaround in agricultural science and expert in the field of environmental science was so kind to discuss our topics with us. We discussed the topics “Influence of human-made water pollution on aquatic ecosystems” and “GMOs to save the environment” with him. Thanks to Mr. Kaiser we learned a lot about the different perspectives and insights on the problem of water pollution and the legal situation of GMOs in Europe and especially in Germany.</p>
+        <hr>
+        <b> <u>Science communication and education:</u> </b>
+        <p class="block-txt">Together with the iGEM Team Tübingen we started a social media campaign to raise the awareness for the local and global issue of water pollution. By posting short informative schemes and facts that were easy to read and remember we wanted to catch the audience's attention without bombarding them with too much information. After illustrating the water body types and their differences, we dove into the topic of water pollution both globally and locally in the state of Baden-Wuerttemberg. With our weekly posts we wanted to show that by taking initiative even a group of individuals can pressure big corporations into changing their ways.
+Besides social media activities we spread our idea for a solution in wastewater treatment by writing two guest articles. The first article was published in 05.20 in the 26. Volume of the BIOspektrum magazine.
+A second guest article describing the scientifical background and idea of immobilized laccases in wastewater treatment was published on the eurofins Blog.
+</p>
+<hr>
+<b> <u>European Wastewater Meeting collaboration :</u> </b>
+<p class="block-txt">In order to connect and exchange information with other iGEM-teams, which also have their focus on the wastewater sector, we have held regular "European wastewater meetings". Due to COVID-19 and the different locations, all meetings took place online. This collaboration included the iGEM- team of the Universitiesy of Kaiserslautern, Darmstadt, Zurich, Aalto-Helsinki and GenerationMendelBrno.
+We discussed upcoming events, current topics regarding the laboratory and our own research. Our goal was to have a constructive discussion about current problems and to find a solution together. Through the lively exchange of our topics we were able to find new links for further collaboration and to bring our project forward by connecting our research with each other.
+</p>
+<hr>
+<b> <u>Partnership:</u> </b>
+<p class="block-txt">We teamed up with the iGEM teams of Darmstadt and Kaiserslautern for a partnership since all of us see micropollutants as a huge problem impacting our planet. In our Partnership webpage one can find a comparison of our three projects and useful literature recommendations or expert excerpts from interviews we’ve conducted. The aim of the project was to give an overview over the possibilities to use laccases for wastewater treatment and making it easier for future teams to get an entry in the field and build on our ideas.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="section full" id="Sponsors">
+    <img src="https://2020.igem.org/wiki/images/b/b9/T--Stuttgart--Poster_Acknol_Sponsors.png" alt="Sponsors">
+
+    <div class="info">
+      <div class="title">
+        Acknowledgement and Sponsors
+      </div>
+      <div class="text">
+        <img src="https://2020.igem.org/wiki/images/1/1e/T--Stuttgart--Poster_Sponsoring.png" alt="Sponsors">
+        <hr>
+        <b>
+          We’d like to thank the following people for providing their time and resources to support and guide us:
+        </b>
+        <hr />
+        <p>
+          Apl. Prof. Dr. habil. <b>Siemann Herzberg</b>, Vice Director of the Biochemical Engineering Institute,
+        </p>
+        <p>
+          Thank you for founding, organizing and managing the iGEM Team of the University of Stuttgart. We would also like to thank you for helping us manage a project from start to finish.
+        </p>
+        <hr />
+        <p>
+          Jun. Prof. Dr. rer. nat. <b>Björn Voß</b>, Professor at the Institute of Biochemical Engineering - Computational Biology,
+        </p>
+        <p>
+          Thank you for being our second Principle Investigator. Thank you for organizing everything regarding iGEM registrations and providing your time and knowledge.
+        </p>
+        <hr />
+        <p>
+          Jun. Prof. Dr. <b>Michael Heymann</b>, Institute of Biomaterials and Biomolecular Systems,
+        </p>
+        <p>
+          Thank you for giving us advice especially in the initial moments of our project.
+        </p>
+        <hr />
+        <p>
+          Ph.D. <b>Erik Eppinger</b>, Institute of Microbiology,
+        </p>
+        <p>
+          Thank you for your commitment throughout the iGEM period and for always being ready to answer our questions and advising us regarding lab work.
+        </p>
+        <hr />
+        <p>
+          Ph.D. <b>Jan Müller</b>, Institute of Biochemical Engineering,
+        </p>
+        <p>
+          Thank you for always helping us around in the institute. Also thanks for your help regarding our modelling team.
+        </p>
+        <hr />
+        <p>
+          T.A <b>Janosch Gröning</b>, Institute of Microbiology,
+        </p>
+        <p>
+          Thank you for taking your time teaching us proper methods, like disrupting cells via french press, and being available for any questions we had.
+        </p>
+        <hr />
+        <p>
+          Ph.D. <b>Benjamin Aberle</b>, Institute of technical Biochemistry,
+        </p>
+        <p>
+          Thank you for supporting us with the analytics and providing us with the HPLC system.
+        </p>
+        <hr />
+        <p>
+          T.A <b>Andrea Seipel</b>, Institute of Biochemical Engineering,
+        </p>
+        <p>
+          Thank you for aiding us in placing orders for laboratory material.
+        </p>
+        <hr />
+        <p>
+          T.A <b>Martina Schweikert</b>, Institute of Biochemical Engineering,
+        </p>
+        <p>
+          Thank you for aiding us in placing orders for laboratory material.
+        </p>
+        <hr />
+        <p>
+          Secretary <b>Silke Reu</b>, Institute of Biochemical Engineering,
+        </p>
+        <p>
+          Thank you for helping us with managing our finances.
+        </p>
+        <hr />
+        <p>
+          M. Sc. <b>Lennart Kühl</b>, Institute of Cell Biology and Immunology,
+        </p>
+        <p>
+          Thank you for providing the necessary columns for our protein purification and for giving us access to the Nanodrop.
+        </p>
+        <hr />
+        <p>
+          Dr. rer. nat. <b>Falk Lissner</b>, Institute of Inorganic Chemistry,
+        </p>
+        <p>
+          Thank you for letting us use the laboratory of inorganic chemistry for the synthesis of our mesoporous silica foam.
+        </p>
+        <hr />
+        <p>
+          <b>Anita Czambor</b>, Institute of Inorganic Chemistry,
+        </p>
+        <p>
+          Thank you for providing us all the equipment for our synthesis of the mesoporous silica foam.
+        </p>
+        <hr />
+        <p>
+          <b>Philipp Flad</b>, 4th Physics Institute,
+        </p>
+        <p>
+          Thank you for taking your time to help us imaging our foam with the SEM.
+        </p>
+        <hr />
+        <p>
+          Dr. <b>Natalie Trachtmann</b>, Institute of Microbiology,
+        </p>
+        <p>
+          Thank you for always answering our questions and to provide us with the necessary equipment like centrifuges but also chemicals that we did not have in our laboratory.
+        </p>
+        <hr />
+        <p>
+          <b>Simon Blümle</b>, Student Technical Biology, University of Stuttgart
+        </p>
+        <p>
+          Thank you for connecting us with Philipp Flad and helping in the lab.
+        </p>
+        <hr />
+        <p>
+          <b>Christian Kaiser</b>, Initiative for a progressive turnaround in agricultural science,
+        </p>
+        <p>
+          Thank you for participating in our discussion about “Influence of man-made water pollution on aquatic ecosystems” and “GMOs to save the environment”.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ </div>
+
+
+
+ <!--This is where the selected content will be displayed - Don't change this section!-->
+ <div class="poster_w display">
+
+   <h3 id="section_title"></h3>
+
+   <p id="section_text"></p>
+
+ </div>
 
 </html>

@@ -1,0 +1,555 @@
+{{Poster}}
+<html>
+
+
+
+
+
+<!---Place the content of your poster inside this div--->
+<div class="poster_w content">
+
+
+
+<!----- Title  -------------------------------------------------------------------------------------------------->
+
+
+<!--This is the first row of the poster, it contains the title section --->
+<div class="row">
+
+	<!-- Full width section with the id 'title'
+	add the class 'first_text' so it is loaded by default --->
+	<div class="section full first_text " id="title">
+
+		<!--Image for a full width section, recommended size: 1200 x 200 px -->
+		<img src="https://2020.igem.org/wiki/images/8/8c/T--BostonU_Poster_example1.png">
+
+		<!--Info: Place the title and text for this section, it will appear when the user clicks on it
+			since the first_text class is used above, this section will appear by default -->
+		<div class="info">
+			<!--Section title -->
+			<div class="title"> Abandon All Hope, Ye Who PCR: MoClo and the Quest for Genetic Circuit Characterization</div>
+
+			<!--Section text--->
+			<div class="text">
+				Presented by Team BostonU 2012
+				<br><br>
+				<b>Monique De Freitas&#185;</b>, <b>Shawn Jin&#185;</b>, Evan Appleton&#178;, Swati Carr&#178;, Sonya Iverson&#178;, Traci Haddock&#179;, and Douglas Densmore<SUP>&#167;</SUP>
+				<br><br>
+				<b>&#185;iGEM Student Team Member</b>, &#178;iGEM Team Mentor, &#179;iGEM Team Primary PI, <SUP>&#167;</SUP>Faculty Sponsor,  Department of Electrical and Computer Engineering, Boston University, Boston, MA, USA
+				<br><br>
+				<b>Abstract</b>
+				<br><br>
+				Our project has three aims: to introduce MoClo as an alternative assembly technique to BioBricks, to develop a standardized protocol for the characterization of genetic circuits using flow cytometry, and to share our MoClo Kit with the iGEM community. MoClo is an assembly technique developed by Weber et al., 2011, which involves a multi-way, one-pot digestion-ligation reaction, enabling faster and more efficient construction of genetic circuits. We converted a large subset of BioBricks from the Registry into MoClo Parts using PCR and cloning strategies. We are in the process of building and characterizing various genetic circuits using MoClo Parts, which we will compare to their BioBrick counterparts. A characterization workflow will be shared once this is complete. We also developed a data sheet using Clotho to be included in the Registry of Standard Biological Parts for each Part we characterized to easily share our data with the synthetic biology community.
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+<!----- Project Goals ------------------------------------------------------------------------------------------>
+
+<!--Second row of the poster it contains the introduction section --->
+<div class="row">
+
+	<!-- Full width section with the id 'introduction' --->
+	<div class="section full" id="introduction">
+
+		<!--Image for a full width section, recommended size: 1200 x 200 px -->
+		<img src="https://2020.igem.org/wiki/images/1/17/T--BostonU--Poster_example2A.png">
+
+		<!--Info: Place the title and text for this section, it will appear when the user clicks on it-->
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title"> Project Goals </div>
+
+			<!--Section text--->
+			<div class="text">
+				To introduce MoClo as an alternative assembly method for use by iGEM teams and start a library of MoClo parts for future iGEM teams to use
+				<br><br>
+				To develop a characterization workflow for genetic circuits containing fluorescent proteins and share this protocol with the iGEM community
+				<br><br>
+				To generate a data sheet that contains information on the device, parts, assembly technique(s), and characterization
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+<!--- Motivation, Building MoClo, Building Library -------------------------------------------------------------------->
+
+<!--Third row of the poster it contains the motivation, Building: MoClo Assembly Method and Building library sections--->
+<div class="row">
+
+	<!-- Third  width section with the id 'motivation' --->
+	<div class="section third" id="motivation">
+
+		<!--Image for a third width section, recommended size:  400 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/8/8b/T--BostonU--Poster_example3A.png">
+
+		<!--Info: Place the title and text for this section, it will appear when the user clicks on it-->
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title"> Motivation </div>
+
+			<!--Section text--->
+			<div class="text">
+				We identified 3 areas of synthetic biology that we wanted to improve for the iGEM community: Building, Characterizing, and Sharing.
+				<br><br>
+
+
+				<!--Quarter width subsection ---->
+				<div class="subsection quarter">
+					<img src="https://2020.igem.org/wiki/images/a/a7/BU12_green_gear.png" align="top">
+				</div>
+
+
+				<!-- Three quarters width subsection ---->
+				<div class="subsection three_quarters">
+					<br>
+					<b>BUILDING:</b> BioBricks  assembly requires multiple cycles of ligations and digestions, making it very time consuming when constructing large circuits
+				</div>
+
+
+				<!--Place a clear to make sure the next part starts on a new line  ---->
+				<div class="clear"></div>
+
+				<!--Quarter width subsection ---->
+				<div class="subsection quarter">
+					<img src="https://2020.igem.org/wiki/images/e/ee/BU12_yellow_gear.png" align="top">
+				</div>
+
+				<!-- Three quarters width subsection ---->
+				<div class="subsection three_quarters">
+					<br>
+					<b>CHARACTERIZING:</b> Characterization methods for circuits containing fluorescent proteins vary, making data comparison challenging
+				</div>
+
+				<!--Place a clear to make sure the next part starts on a new line  ---->
+				<div class="clear"></div>
+
+				<!--Quarter width subsection ---->
+				<div class="subsection quarter">
+					<img src="https://2020.igem.org/wiki/images/0/04/BU12_blue_gear.png" align="top">
+				</div>
+
+				<!-- Three quarters width subsection ---->
+				<div class="subsection three_quarters">
+					<br>
+					<b>SHARING:</b> Parts pages on the Registry often lack a standard format in which characterization information is displayed
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Third width section with the id 'building_moclo' --->
+	<div class="section third" id="building_moclo">
+
+		<!--Image for a third width section, recommended size:  400 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/7/7b/T--BostonU--Poster_example4A.png">
+
+		<!--Info: Place the title and text for this section, it will appear when the user clicks on it-->
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title"> Building: MoClo Assembly Method </div>
+
+			<!--Section text--->
+			<div class="text">
+				Modular Cloning, or MoClo, is a relatively new assembly method based on Golden Gate introduced in 2011 by Ernst Weber et al., which uses Type IIS restriction enzymes (we used BpiI and BsaI) to generate 4bp overhangs. These 4bp overhangs are called fusion sites, which must match between parts in order to ligate them together.
+				<br><br>
+				This allows the user to ligate up to six DNA parts together in a one-pot reaction, cutting down the time it takes to build large circuits dramatically (shown below).
+				<br><br>
+
+				<!--Half width subsection ---->
+				<div class="subsection half">
+					<img src="https://2020.igem.org/wiki/images/f/f1/BioBricks_Assembly_9day_BU12.png" align="top">
+				</div>
+
+				<!--Half width subsection ---->
+				<div class="subsection half">
+					<img src="https://2020.igem.org/wiki/images/c/c6/MoClo_Assembly_3day_BU12.png" align="top">
+				</div>
+
+				<!--Place a clear to make sure the next part starts on a new line  ---->
+				<div class="clear"></div>
+
+				There are three Levels of MoClo Parts (shown below):
+				<br><br>
+				<b>Level 0:</b> Basic part (ex: promoter, RBS, CDS, etc.)<br>
+				<b>Level 1:</b> Transcriptional unit (up to 6 Level 0 Parts)<br>
+				<b>Level 2:</b> Composite of up to 6 Level 1 parts
+				<br><br>
+
+				<img src="https://2020.igem.org/wiki/images/0/0b/MoClo_Assembly_details_BU12.png">
+				<br><br>
+				Reference: Weber et al., <i>PLoS One</i> 2011 
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Third  width section with the id 'building_library' --->
+	<div class="section third" id="building_library">
+
+		<!--Image for a third width section, recommended size:  400 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/6/62/T--BostonU--Poster_example5A.png">
+
+
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title">Building: MoClo Library </div>
+
+			<!--Section text--->
+			<div class="text">
+				<b>We converted 31 BioBricks and 4 new parts into Level 0 MoClo parts to create a library of MoClo parts.</b>
+				<br><br>
+
+				<!--Third width subsection ---->
+				<div class="subsection third">
+					For BioBrick parts >100bp, we used a standard PCR methodology.
+				</div>
+
+				<!--Two thirds width subsection ---->
+				<div class="subsection two_thirds">
+					<img src="https://2020.igem.org/wiki/images/e/e7/BU12_Primer_design.png">
+				</div>
+
+				<!--Place a clear to make sure the next part starts on a new line  ---->
+				<div class="clear"></div>
+
+				<!--Third width subsection ---->
+				<div class="subsection third">
+					We used a ligation PCR methodology for sequences < 100bp in length (J. Lee et al., Biotechniques. 2004).
+				</div>
+
+				<!--Two thirds width subsection ---->
+				<div class="subsection two_thirds">
+					<img src="https://2020.igem.org/wiki/images/9/93/BU12_ligation_pcr.png">
+				</div>
+
+				<!--Place a clear to make sure the next part starts on a new line  ---->
+				<div class="clear"></div>
+
+				<br>
+
+				<!--Three quarters width subsection ---->
+				<div class="subsection three_quarters">
+						<img src="https://2020.igem.org/wiki/images/8/8a/BU12_Table_1_parts_updated.png">
+				</div>
+
+				All parts listed in Table 1 were confirmed  with sequencing
+				<br><br>
+				All of our parts and primers are stored in a Clotho database (Xia et al., Methods in Enzymology 2011).
+				<br><br><br><br><br>
+
+				<b>New Parts</b>
+				<br>
+				We have cloned a new copper sensitive σ<sup>54</sup>-regulatory system: pMmoR is induced by mmoR, which is repressed by copper (J. Scanlan et al., 2009).
+				<br><br>
+				Two new fluorescent proteins, EBFP2 and iRFP, have also been cloned.
+
+ 			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+<!--- Characterization ------------------------------------------------------------------------------------------------>
+
+<!--Fourth row of the poster it contains the workflow and inverter sections --->
+<div class="row">
+
+	<!-- Half width section with the id 'workflow' --->
+	<div class="section half" id="workflow">
+
+		<!--Image for a half width section, recommended size:  600 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/8/8f/T--BostonU--Poster_example6A.png">
+
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title"> Characterizing: Workflow</div>
+
+			<!--Section text--->
+			<div class="text">
+				We have begun developing a flow cytometry workflow for the characterization of genetic circuits that contain fluorescent proteins in E. coli (shown below).
+				<br>
+				<img src="https://2020.igem.org/wiki/images/0/06/BU12_Char_Workflow.png">
+				<br>
+				Parameters that often vary between labs is the time of growth, culture shaking speed, E. coli strain used, and media used. Other important parameters include the lasers, filters, and settings used in the flow cytometer for measurement.
+				<br><br>
+				We are in the process of testing these variables to determine the parameters that will work best for the genetic circuits we have built using BioBricks.
+ 			</div>
+		</div>
+	</div>
+
+
+	<!-- Half width section with the id 'inverter' --->
+	<div class="section half" id="inverter">
+
+		<!--Image for a half width section, recommended size:  600 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/a/a0/T--BostonU--Poster_example7A.png">
+
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title"> Characterizing: Inverter</div>
+
+			<!--Section text--->
+			<div class="text">
+				We characterized an inverter built with BioBrick parts (shown below) using the parameters given in previous Characterizing box.
+				<br><br>
+				<img src="https://2020.igem.org/wiki/images/3/39/BU12_inverter_diagram.png">
+				<br><br>
+				This first pass at developing a flow cytometry workflow  showed promising results, with the GFP increasing and RFP decreasing smoothly as the arabinose concentration increased.
+				<br><br>
+				<img src="https://2020.igem.org/wiki/images/d/d2/BU12_Inverter_graph.png">
+				<br><br>
+				This will be expanded to include our MoClo Level 1 and Level 2 parts once built. We plan to recreate this inverter using MoClo.
+ 			</div>
+		</div>
+	</div>
+</div>
+
+
+<!---- Sharing ------------------------------------------------------------------------------------------------------->
+
+<!--Fifth row of the poster it contains the moclo_kit and datasheet sections --->
+<div class="row">
+
+	<!-- Half width section with the id 'moclo_kit' --->
+	<div class="section half" id="moclo_kit">
+
+		<!--Image for a half width section, recommended size:  600 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/1/1c/T--BostonU--Poster_example8A.png">
+
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title"> Sharing: MoClo Kit</div>
+
+			<!--Section text--->
+			<div class="text">
+				We have submitted all of our Level 0 MoClo parts and cloning vectors for Level 0, Level 1 and Level 2 to the Registry as part of our MoClo Kit.
+				<br><br>
+				It is our hope that future iGEM teams will contribute to this library of Level 0 MoClo parts so iGEM can move away from binary assembly and towards this modular, one-pot assembly technique.
+				<br><br>
+				<img src="https://2020.igem.org/wiki/images/4/49/BU12_MoClo_kit_library_updated.png">
+				<br><br>
+				This figure shows the number of DNA parts in our MoClo Kit and the power of MoClo as an assembly technique.
+ 			</div>
+		</div>
+	</div>
+
+
+	<!-- Half width section with the id 'datasheet' --->
+	<div class="section half" id="datasheet">
+
+		<!--Image for a half width section, recommended size:  600 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/3/32/T--BostonU--Poster_example9A.png">
+
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title"> Sharing: Datasheet</div>
+
+			<!--Section text--->
+			<div class="text">
+				We have also begun work on generating a data sheet with the following categories of information represented:<br><br>
+				<i>General Information</i> (Author, date, Brief abstract, links to relevant sources)<br><br>
+
+				<i>Part Information</i> (Device design and composition, Assembly method(s))<br><br>
+
+				<i>Growth/Measurement Conditions</i> (Specific experimental conditions, List of assays used)<br><br>
+
+				<i>Data Analysis</i> (Gel images, Sequencing data, Flow cytometry analysis, Other assay analysis)
+
+				<br><br>
+
+				<!--Quarter width subsection -->
+				<div class="subsection quarter">
+					<img src="https://2020.igem.org/wiki/images/8/85/BU12_Clotho_logo.png">
+				</div>
+
+				<!--Three quarters width subsection -->
+				<div class="subsection three_quarters">
+					We plan to pull this information from our Clotho database so any Clotho user can generate these data sheets for their parts.
+				</div>
+
+				<!--Place a clear to make sure the next part starts on a new line  ---->
+				<div class="clear"></div>
+
+				<img src="https://2020.igem.org/wiki/images/1/1e/BU12_datasheet_demo.png">
+
+				<br>
+
+				A prototype data sheet for our submitted part (BBa_K783067).
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!---- Current and Future Work, Contributions ------------------------------------------------------------------------->
+
+<!--Sixth row of the poster it contains the future_work and contributions sections --->
+<div class="row">
+	<!-- Half width section with the id 'future_work' --->
+	<div class="section half" id="future_work">
+
+		<!--Image for a half width section, recommended size:  600 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/c/c6/T--BostonU--Poster_example10A.png">
+
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title">Current and Future Work</div>
+
+			<!--Section text--->
+			<div class="text">
+				<ul>
+				<li>We are building more Level 0 parts and will submit them to the Registry when confirmed</li>
+					<li>We will make fusion proteins to combine functional genes and fluorescent reporters using MoClo</li>
+					<li>We are modifying the growth parameters for our characterization experiments to include 96-well plates</li>
+					<li>We will test our parameters on multiple flow cytometers</li>
+					<li>We are writing the RFC standard for MoClo and will submit that to the BioBricks Foundation within the next month</li>
+					<li>We will complete and share the code to make our data sheet so future iGEM teams that use Clotho can easily pull together all of the information required for their Registry pages</li>
+				</ul>
+ 			</div>
+		</div>
+	</div>
+
+	<!-- Half width section with the id 'contributions' --->
+	<div class="section half" id="contributions">
+
+		<!--Image for a half width section, recommended size:  600 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/4/46/T--BostonU--Poster_example11A.png">
+
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title">Contributions to iGEM</div>
+			<!--Section text--->
+			<div class="text">
+
+				<!--Quarter width subsection -->
+				<div class="subsection quarter">
+					<img src="https://2020.igem.org/wiki/images/a/a7/BU12_green_gear.png" align="top">
+				</div>
+
+				<!--Three quarters width subsection -->
+				<div class="subsection three_quarters">
+					<br>
+					<b>BUILDING:</b>Converted 29 BioBrick parts into 31 MoClo Parts (Foundation for converting iGEM to MoClo) Contributed 4 new parts, for a total of 35 parts
+				</div>
+
+				<!--Place a clear to make sure the next part starts on a new line  ---->
+				<div class="clear"></div>
+
+				<!--Quarter width subsection -->
+				<div class="subsection quarter">
+					<img src="https://2020.igem.org/wiki/images/e/ee/BU12_yellow_gear.png" align="top">
+				</div>
+
+				<!--Three quarters width subsection -->
+				<div class="subsection three_quarters">
+					<br>
+					<b>CHARACTERIZING:</b> Characterization workflow for circuits with fluorescent proteins in development with shown success
+				</div>
+
+				<!--Place a clear to make sure the next part starts on a new line  ---->
+				<div class="clear"></div>
+
+				<!--Quarter width subsection -->
+				<div class="subsection quarter">
+					<img src="https://2020.igem.org/wiki/images/0/04/BU12_blue_gear.png" align="top">
+				</div>
+
+				<!--Three quarters width subsection -->
+				<div class="subsection three_quarters">
+					<br>
+					<b>SHARING:</b> Shared our MoClo Kit for future iGEM teams to use and outlined a data sheet to implement for Clotho users
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!---- Acknowledgements and Sponsors ------------------------------------------------------------------------------->
+
+
+<!--Seventh row of the poster it contains the acknowledgements section --->
+<div class="row">
+	<div class="section full" id="acknowledgements">
+
+		<!--Image for a half width section, recommended size:  1200 x 200 px  -->
+		<img src="https://2020.igem.org/wiki/images/e/e0/T--BostonU--Poster_example12A.png">
+
+		<div class="info">
+
+			<!--Section title -->
+			<div class="title"> Acknowledgements and Sponsors </div>
+
+			<!--Section text--->
+			<div class="text"><b>Acknowledgements</b><br>
+				Dr. Swapnil Bhatia<br>
+				Janoo Fernandes<br>
+				Dr. Michael Smanski<br>
+				Dr. Ernst Oberortner<br>
+				Jenhan Tao<br>
+				Dr. Alexy Vorobev<br>
+				<br><br>
+				<b>Sponsors</b>
+				<br>
+
+				<!--Two thirds width subsection -->
+				<div class="subsection two_thirds">
+					<img src="https://2020.igem.org/wiki/images/2/22/BU12_Sponsors_list.png">
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+
+<!--This is where the selected content will be displayed - Don't change this section!-->
+<div class="poster_w display">
+
+	<h3 id="section_title"></h3>
+
+	<p id="section_text"></p>
+
+</div>
+
+</html>
